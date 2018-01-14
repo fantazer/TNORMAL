@@ -651,13 +651,13 @@ button {
 .check-el .icon-check {
   display: none;
 }
-.check-el .sytle-input:checked + .sytle-input-element {
+.check-el .sytle-input:checked ~ .sytle-input-element {
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
 }
-.check-el .sytle-input:checked + .sytle-input-element .icon-check {
+.check-el .sytle-input:checked ~ .sytle-input-element .icon-check {
   display: block;
   fill: #000;
   width: 16px;
@@ -684,50 +684,17 @@ button {
 .style-label--radio .icon-check {
   display: none;
 }
-.style-label--radio .sytle-input:checked + .sytle-input-element {
+.style-label--radio .sytle-input:checked ~ .sytle-input-element {
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
 }
-.style-label--radio .sytle-input:checked + .sytle-input-element .icon-radio {
+.style-label--radio .sytle-input:checked ~ .sytle-input-element .icon-radio {
   border-radius: 50%;
   width: 14px;
   height: 14px;
   background: #3a90c8;
-}
-body {
-  font-family: 'Roboto', sans-serif;
-  color: #111;
-  line-height: 1.2;
-  letter-spacing: 0.01em;
-}
-.main-cont {
-  *zoom: 1;
-  width: auto;
-  max-width: 1200px;
-  float: none;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 0;
-  padding-right: 0;
-  position: relative;
-  width: 100%;
-  padding: 0 10px;
-}
-.main-cont:before,
-.main-cont:after {
-  content: '';
-  display: table;
-}
-.main-cont:after {
-  clear: both;
-}
-@media only screen and (min-width: 1200px) {
-  .main-cont {
-    width: 1200px;
-  }
 }
 /* block footer*/
 /*block footer end */
@@ -969,4 +936,37 @@ body {
 }
 .header-nav__sub-el:last-child {
   border-bottom: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #111;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+.main-cont {
+  *zoom: 1;
+  width: auto;
+  max-width: 1200px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  width: 100%;
+  padding: 0 10px;
+}
+.main-cont:before,
+.main-cont:after {
+  content: '';
+  display: table;
+}
+.main-cont:after {
+  clear: both;
+}
+@media only screen and (min-width: 1200px) {
+  .main-cont {
+    width: 1200px;
+  }
 }
