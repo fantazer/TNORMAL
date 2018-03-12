@@ -44,7 +44,7 @@
     "gulp-webshot": "^0.2.3",
     "gulp-zip": "^3.2.0",
     "gulp.spritesmith": "^6.2.1",
-    "imagemin-mozjpeg": "^5.1.0",
+    "imagemin-mozjpeg": "5.1.0",
     "imagemin-pngquant": "^4.2.0",
     "pixelsmith": "^2.1.1",
     "process-nextick-args": "^1.0.7",

@@ -21,7 +21,6 @@ $blue = #3a90c8
 
 $main-text-color = black
 $link-color = black
-
 $link-color-visited = gray
 $link-color-hover = black
 $border-color = #dddddd
@@ -33,10 +32,6 @@ $border-color = #dddddd
 
 //webfont('PT Sans', 'PT Sans', 'normal')
 $v-font =  'Roboto', sans-serif
-
-$weigh-light = 300
-$weigh-normal = 400
-$weigh-bold = 700
 
 typeSize(fontSm,font)
 	+below(768px)
@@ -82,8 +77,6 @@ a
 	&:visiter
 		color darken($link-color,30)
 
-
-
 p
 	@extend .type--main
 
@@ -96,18 +89,17 @@ p
 
 .link--main
 	color $link-color
-	hover-underline($blue)
+	hover-underline($link-color)
 	&:hover
 		color darken($link-color,20)
 	&:visiter
 		color darken($link-color,30)
 
 .link--text
-	color $blue
+	color $link-color
 	text-decoration underline
 	&:hover
 		text-decoration none
-
 
 // ============================ Buttons ============================
 
@@ -248,10 +240,8 @@ btnStyleLight(br-btn,color-btn)
 .btn--hover:active:before
 	transform: scale(2)
 
-
 button
 	font-family $v-font
-
 
 // ============================ Inputs ============================
 
