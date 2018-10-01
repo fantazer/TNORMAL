@@ -18,3 +18,132 @@ body
 
 .main-cont
 	center(1200px,10px)
+
+
+//modal
+.modal-layer
+	width: 100%
+	height: 100vh
+	position: fixed
+	z-index 1000
+	top 0
+	left 0
+	visibility: hidden
+	transition all 1s // duration for fade
+	opacity 0
+
+.modal-layer-show
+	visibility: visible
+	opacity 1
+
+.modal-cont
+	width: 100%
+	height: 100%
+	position: relative
+	max-height 100%
+	overflow: auto
+
+.modal-filter
+	position: absolute
+	top: 0
+	left: 0
+	background: #18191d
+	width: 100%
+	height: 100vh
+	min-height 100vh
+
+.modal
+	+below(768px)
+		width: 100%
+		box-shadow 0 0 0
+	box-shadow 0 2px 4px rgba(0, 0, 0, 0.24)
+	transform translateY(-350%)
+	position: absolute
+	opacity .1
+	transition transform .8s, opacity 1s
+	max-width 470px
+
+.modal-content
+	+below(768px)
+		padding: 20px
+	+below(640px)
+		height: 100%
+		overflow-y scroll
+		padding: 20px 10px
+		width: 100%!important
+	//background: #2b8850
+	background: #26282d
+	position: relative
+	padding: 40px
+	color white
+	+below(768px)
+		width: 80%
+
+.modal-content--register
+	width: 500px
+	input
+		width: 100%
+		margin-bottom: 20px
+
+.modal__show
+	+below(1024px)
+		overflow-Y:scroll
+	max-height 100%
+	opacity 1
+	transform translateY(0)
+
+.modal-close
+	+below(768px)
+		top 15px
+		right 15px
+	position: absolute
+	top: 20px
+	right: 20px
+	cp()
+	.icon
+		+below(768px)
+			size 15px
+		size 20px
+		fill white
+
+.modal-open
+	overflow: hidden
+	overflow-y: scroll
+	position: fixed
+	top: 0
+	left: 0
+	right: 0
+	bottom: 0
+	width: 100%
+
+.modal-wrap
+	position: fixed
+	width: 100%
+	height: 100%
+	flex(mid)
+
+.modal-title
+	+below(768px)
+		font-size: 20px
+	font-family "Gotham"
+	@extend .type--md
+	letter-spacing 1.2px
+	text-align: center
+	color white
+	up()
+	margin-bottom: 30px
+
+.modal-text
+	+below(768px)
+		width: 100%
+		font-size: 12px
+	text-align: center
+	margin: 20px auto 40px auto
+	font-size: 16px
+	line-height: 1.2
+	color #5f5f5f
+
+.modal-agree
+	margin-top: 30px
+	margin-bottom: 40px
+//modal===end
