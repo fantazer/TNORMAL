@@ -17,6 +17,7 @@ silver = #DDDDDD
 gray = #AAAAAA
 black = #111111
 
+$mark = #3a90c8
 $blue = #3a90c8
 
 $main-text-color = black
@@ -246,21 +247,19 @@ button
 // ============================ Inputs ============================
 
 .input,.textarea,.select
-	border 0px
-	padding 20px
-	border 1px solid $border-color
+	padding 18px 15px
+	border 1px solid #e5e5e5
 	resize: none
 	outline: 0 !important
 	border-radius 4px
 	font-family $v-font
 	display block!important
-	margin-bottom 10px
 	placeholder(#888888)
-	background: #f7f7f8
+	background: #f6f6f6
 	tr(all)
 	&:focus
-		border 1px solid blue
-
+		border 1px solid $mark
+		background: white
 .style-label
 	display flex
 	position relative
@@ -275,27 +274,29 @@ button
 		top 0
 		left -9999px
 	.sytle-input-element
-		width 30px
-		height 30px
+		width 32px
+		height 32px
 		position relative
 		display inline-block
-		margin-right 10px
+		margin-right 30px
 		background white
-		border 1px solid #cfcfcf
-		br(8px)
+		border 1px solid #e6e6e6
+		br(2px)
 		cp()
 		tr(all)
 		&:hover
-			border 1px solid #8d8d8d
+			border 1px solid $mark
 	.icon-check
 		display none
 	.sytle-input
 		&:checked ~ .sytle-input-element
 			flex(mid)
 			color white
+			background: $mark
+			border 1px solid $mark
 			.icon-check
 				display block
-				fill #000000
+				fill white
 				size 16px
 
 .style-label--radio
@@ -304,13 +305,13 @@ button
 		top 0
 		left -9999px
 	.sytle-input-element
-		width 22px
-		height 22px
+		width 32px
+		height 32px
 		position relative
 		display inline-block
-		margin-right 10px
+		margin-right 30px
 		background white
-		border 1px solid #cfcfcf
+		border 1px solid #e6e6e6
 		round()
 		cp()
 	.icon-check
@@ -319,7 +320,17 @@ button
 		&:checked ~ .sytle-input-element
 			flex(mid)
 			color white
+			box-shadow 0 2px 4px rgba(0, 45, 135, 0.16)
+			border-color white
+			background: white
 			.icon-radio
 				round()
-				size 14px
-				background blue;
+				size 16px
+				background $mark
+
+.sytle-input-text
+	color black
+	width: calc(100% - 80px)
+	line-height: 1.6
+	a
+		color $mark

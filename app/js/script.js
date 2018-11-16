@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-	//modal
+	//modals
 	var modalState = {
 		"isModalShow": false, //state show modal
 		"scrollPos": 0
