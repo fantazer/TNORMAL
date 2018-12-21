@@ -43,6 +43,7 @@ var changed = require('gulp-changed');
 var pug = require('gulp-pug');
 var favicons = require("gulp-favicons");
 var emitty = require('emitty').setup('app/html', 'pug');
+var prettify = require('gulp-html-prettify');
 
 // ########## make img ###############
 
