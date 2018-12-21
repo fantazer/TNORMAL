@@ -1,0 +1,74 @@
+//  ============================ Typography ============================
+
+//webfont('RUB', 'rouble-webfont', 'normal')
+//Add fotn rub write .rub a - (a,b,c,d - change type font)
+
+$v-font =  'Roboto', sans-serif
+
+typeSize(fontSm,font)
+	+below(768px)
+		font-size font px
+	font-size fontSm px
+
+.type--xs
+	typeSize(12,10)
+
+.type--sm
+	typeSize(14,12)
+
+.type--main
+	typeSize(16,14)
+
+.type--md
+	typeSize(18,15)
+
+.type--lg
+	typeSize(26,18)
+
+.type--xl
+	typeSize(36,20)
+
+.type--bold
+	font-weight bold
+
+h1
+	@extend .type--xl
+h2
+	@extend .type--lg
+h3
+	@extend .type--main
+h4
+	@extend .type--sm
+h5
+	@extend .type--xs
+
+a
+	color $link-color
+	&:hover
+		color darken($link-color,20)
+	&:visiter
+		color darken($link-color,30)
+
+p
+	@extend .type--main
+
+.link--mark
+	color $blue
+	&:hover
+		color darken($mark,20)
+	&:visiter
+		color darken($mark,30)
+
+.link--main
+	color $link-color
+	hover-underline($link-color)
+	&:hover
+		color darken($link-color,20)
+	&:visiter
+		color darken($link-color,30)
+
+.link--text
+	color $link-color
+	text-decoration underline
+	&:hover
+		text-decoration none

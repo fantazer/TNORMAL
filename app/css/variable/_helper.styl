@@ -1,25 +1,3 @@
-.clear
-	clear both
-
-.align-image-center
-	text-align center
-
-// Add this class to an image to make it fit within it's fluid parent wrapper while maintaining
-// aspect ratio.
-.fluid-image
-	max-width 100%
-	height auto
-	display block
-
-// Utilities
-
-
-.type--up
-	up()
-
-.type--italy
-	font-style italic
-
 .type--center
 	text-align center
 
@@ -33,8 +11,6 @@
 	cursor default
 	opacity .5
 	pointer-events none
-
-// Hide visually and from screen readers
 
 .hidden
 	display none !important
@@ -81,6 +57,7 @@
 .all-page-color
 	f()
 	fw()
+
 .all-page-color__el
 	margin: 20px
 
@@ -111,43 +88,3 @@
 	.icon-el
 		margin-bottom: 10px
 		size 25px
-
-.clearfix
-	zoom 1
-.clearfix:before,
-.clearfix:after
-	content ""
-	display table
-.clearfix:after
-	clear both
-
-@-webkit-keyframes slideInDown {
-	from {
-		transform: translate3d(0, -100%, 0);
-		visibility: visible;
-	}
-	to {
-		transform: translate3d(0, 0, 0);
-	}
-}
-
-
-@keyframes slideInDown {
-	from {
-		transform: translate3d(0, -100%, 0);
-		visibility: visible;
-	}
-
-	to {
-		transform: translate3d(0, 0, 0);
-	}
-}
-
-.shrink
-	position fixed
-	top 0
-	left 0
-	background white
-	width 100%
-	margin 0
-	animation:  slideInDown  1s 1 ease-in-out

@@ -1,0 +1,90 @@
+// === Inputs ===
+.input,.textarea,.select
+	padding 18px 15px
+	border 1px solid $border-color
+	resize: none
+	outline: 0 !important
+	border-radius 4px
+	font-family $v-font
+	display block!important
+	placeholder(#888888)
+	background: #f6f6f6
+	tr(all)
+	&:focus
+		border 1px solid $mark
+		background: white
+
+.style-label
+	display flex
+	position relative
+	align-items center
+
+.style-label--disable
+	@extend .disabled
+
+.check-el
+	input
+		position absolute
+		top 0
+		left -9999px
+	.sytle-input-element
+		br(2px)
+		cp()
+		tr(all)
+		width 32px
+		height 32px
+		position relative
+		display inline-block
+		margin-right 30px
+		background white
+		border 1px solid $border-color
+		&:hover
+			border 1px solid $mark
+	.icon-check
+		display none
+	.sytle-input
+		&:checked ~ .sytle-input-element
+			flex(mid)
+			color white
+			background: $mark
+			border 1px solid $mark
+			.icon-check
+				display block
+				fill white
+				size 16px
+
+.style-label--radio
+	input
+		position absolute
+		top 0
+		left -9999px
+	.sytle-input-element
+		width 32px
+		height 32px
+		position relative
+		display inline-block
+		margin-right 30px
+		background white
+		border 1px solid $border-color
+		round()
+		cp()
+	.icon-check
+		display none
+	.sytle-input
+		&:checked ~ .sytle-input-element
+			flex(mid)
+			color white
+			box-shadow 0 2px 4px rgba(0, 45, 135, 0.16)
+			border-color white
+			background: white
+			.icon-radio
+				round()
+				size 16px
+				background $mark
+
+.sytle-input-text
+	color black
+	width: calc(100% - 80px)
+	line-height: 1.6
+	a
+		color $mark

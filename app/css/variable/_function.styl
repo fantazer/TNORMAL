@@ -1,3 +1,18 @@
+btnStyle(bg-btn,color-btn)
+	background bg-btn
+	color color-btn
+	border 1px solid color-btn
+	&:hover
+		background darken(bg-btn,20)
+		color color-btn
+
+btnStyleLight(br-btn,color-btn)
+	color color-btn
+	border br-btn solid color-btn
+	&:hover
+		color darken(color-btn,20)
+		border br-btn solid darken(color-btn,20)
+
 filter()
 	position: absolute
 	top 0
@@ -62,7 +77,7 @@ br(a){
 	border-radius a
 }
 
-tr(a){
+tr(a='all'){
 	transition a .4s
 } 
 
