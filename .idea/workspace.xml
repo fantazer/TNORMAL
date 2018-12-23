@@ -8,8 +8,9 @@
     <bookmark url="file://$PROJECT_DIR$/app/html" mnemonic="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="small fix">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="add workspace">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,12 +28,12 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/html/block_html/_const.pug">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -41,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/app/html/block_html/_style.pug">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -55,11 +56,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1180">
-              <caret line="651" lean-forward="true" selection-start-line="651" selection-end-line="651" />
+            <state relative-caret-position="956">
+              <caret line="629" column="16" selection-start-line="629" selection-start-column="16" selection-end-line="629" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -88,7 +98,6 @@
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/app/html/block_html/_mixin.pug" />
         <option value="$PROJECT_DIR$/app/css/variable/_constant.styl" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/js/script.js" />
         <option value="$PROJECT_DIR$/app/js/add-on.js" />
@@ -102,6 +111,7 @@
         <option value="$PROJECT_DIR$/app/html/block_html/_style.pug" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -113,7 +123,7 @@
   </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
-      <autoscrollFromSource ProjectPane="true" />
+      <autoscrollFromSource Scope="true" ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -172,7 +182,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="clone&#9;ACTION&#9;Git.Clone" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../WORK" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -229,7 +239,9 @@
       <workItem from="1543309265518" duration="187000" />
       <workItem from="1543312723675" duration="1231000" />
       <workItem from="1543827319641" duration="911000" />
-      <workItem from="1545381598426" duration="8520000" />
+      <workItem from="1545381598426" duration="9399000" />
+      <workItem from="1545585507410" duration="278000" />
+      <workItem from="1545587871227" duration="290000" />
     </task>
     <task id="LOCAL-00001" summary="fix browsersynk">
       <created>1515935102048</created>
@@ -329,11 +341,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545402384458</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add workspace">
+      <created>1545404007175</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1545404007175</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33706000" />
+    <option name="totallyTimeSpent" value="35153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2568" y="-264" width="2576" height="1416" extended-state="6" />
@@ -342,7 +361,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49960846" visible="true" weight="0.13076311" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" sideWeight="0.50039154" side_tool="true" visible="true" weight="0.13076311" />
+      <window_info id="Favorites" order="3" sideWeight="0.50039154" side_tool="true" weight="0.13076311" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.3369735" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
@@ -423,7 +442,8 @@
     <MESSAGE value="add prettier for pug" />
     <MESSAGE value="regroup _constant.styl" />
     <MESSAGE value="small fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="small fix" />
+    <MESSAGE value="add workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="add workspace" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/readme.md">
@@ -460,13 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1072">
           <caret line="262" column="36" selection-start-line="262" selection-start-column="36" selection-end-line="262" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -539,42 +552,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/variable/_constant-guide.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4536" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/variable/_elements.styl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/variable/_constant-guide.styl" />
+    <entry file="file://$PROJECT_DIR$/app/css/variable/_elements.styl" />
     <entry file="file://$PROJECT_DIR$/app/css/variable/_fonts.styl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/variable/_grid.styl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/variable/_grid.styl" />
     <entry file="file://$PROJECT_DIR$/app/css/variable/_ie.styl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/variable/components/_row.styl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/variable/components/_helpers.styl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/variable/components/_grid-framework.styl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/variable/components/_row.styl" />
+    <entry file="file://$PROJECT_DIR$/app/css/variable/components/_helpers.styl" />
+    <entry file="file://$PROJECT_DIR$/app/css/variable/components/_grid-framework.styl" />
     <entry file="file://$PROJECT_DIR$/app/css/variable/config/_btn.styl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/variable/_constant.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3388">
-          <caret line="121" column="4" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/variable/_constant.styl" />
     <entry file="file://$PROJECT_DIR$/app/css/variable/_function.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1127">
@@ -592,9 +585,7 @@
     <entry file="file://$PROJECT_DIR$/app/css/style-edit.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/icon/sprite.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/icon/sprite.css" />
     <entry file="file://$PROJECT_DIR$/app/css/style.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
@@ -619,14 +610,14 @@
     <entry file="file://$PROJECT_DIR$/app/html/block_html/_const.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/html/block_html/_style.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -639,8 +630,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1180">
-          <caret line="651" lean-forward="true" selection-start-line="651" selection-end-line="651" />
+        <state relative-caret-position="956">
+          <caret line="629" column="16" selection-start-line="629" selection-start-column="16" selection-end-line="629" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
