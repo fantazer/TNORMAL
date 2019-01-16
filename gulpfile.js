@@ -99,6 +99,7 @@ gulp.task('svg', function () {
 						run: function ($) {
 								$('[fill]').removeAttr('fill'); //remove if need color icon
 								$('[style]').removeAttr('style');
+								$('[opacity]').removeAttr('opacity');
 								$('style').remove();
 						},
 						parserOptions: {xmlMode: true }
