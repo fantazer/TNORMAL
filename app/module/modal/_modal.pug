@@ -1,0 +1,35 @@
+mixin modal()
+	.modal-layer
+		.modal-filter
+		.modal-wrap
+			.modal(data-modal="order")
+				.modal-content
+					.modal-close
+						+icon("close","icon")
+					.modal-title Оставьте заявку
+					.modal-text Обращаетесь к нам впервые? <br> Оформите обращение с помощью этой формы, мы перезвоним Вам и проконсультируем по любому Вашему вопросу совершенно бесплатно!
+					form.validate-form( action="javascript:void(null);")
+						.input-row
+							input(type="text" name="name" placeholder="Ваше имя").input
+						.input-row
+							input(type="text" name="phone" placeholder="Ваш телефон").input
+						.input-row
+							textarea(name="info", cols="30", rows="5" placeholder="Сообщение").input
+						.agree-row
+							.check-el
+								label.style-label.style-label--checkbox
+									input(type="checkbox" name="agree").sytle-input
+									.sytle-input-element
+										+icon("checked","icon-check")
+									.sytle-input-text=text
+							.agree-row__text Согласен с
+								a(href="#") условиями обработки персональных данных
+						input(type="submit" value="Отправить заявку").modal-send
+			//success message
+			.modal(data-modal="truemessage")
+				.modal-content.modal-content--true
+					+icon("interface","icon")
+					.modal-text-true Ваша заявка принята
+
+	a(href="#" data-modal="order").modal-get Открыть модальное окно
+
