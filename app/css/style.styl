@@ -19,3 +19,330 @@ body
 
 .main-cont
 	center(1200px,10px)
+
+//modal
+.modal-layer
+	width: 100%
+	height: 100vh
+	position: fixed
+	z-index 1000
+	top 0
+	left 0
+	visibility: hidden
+	transition all 1s // duration for fade
+	opacity 0
+
+.modal-layer-show
+	visibility: visible
+	opacity 1
+
+.modal-cont
+	width: 100%
+	height: 100%
+	position: relative
+	max-height 100%
+	overflow: auto
+
+.modal-filter
+	position: absolute
+	top: 0
+	left: 0
+	background: #18191da1
+	width: 100%
+	height: 100vh
+	min-height 100vh
+
+.modal
+	+below(768px)
+		width: 100%
+		box-shadow 0 0 0
+	box-shadow 0 2px 4px rgba(0, 0, 0, 0.24)
+	transform translateY(-350%)
+	position: absolute
+	opacity .1
+	transition transform .8s, opacity 1s
+	max-width 470px
+	.order__row
+		margin-bottom: 20px
+		border-bottom 0
+.modal-content
+	+below(640px)
+		height: 100%
+		padding: 20px 10px
+		overflow-y scroll
+		width: 100%!important
+		br(0)
+	background: white
+	position: relative
+	padding: 40px
+	br(10px)
+
+.modal__show
+	max-height 100%
+	opacity 1
+	transform translateY(0)
+	position: relative
+
+.modal-close
+	+below(768px)
+		top 12px
+		right 12px
+	position: absolute
+	top: 20px
+	right: 20px
+	cp()
+	.icon
+		size 12px
+		fill black
+		opacity:.3
+
+.modal-open
+	overflow: hidden
+	overflow-y: scroll
+	position: fixed
+	top: 0
+	left: 0
+	right: 0
+	bottom: 0
+	width: 100%
+.modal-wrap
+	position: fixed
+	width: 100%
+	height: 100%
+	overflow-y auto
+	flex(mid)
+
+.modal-title
+	+below(768px)
+		font-size: 20px
+	margin-bottom: 20px
+	text-align: center
+	color black
+
+.modal-text
+	+below(768px)
+		width: 100%
+		font-size: 12px
+	text-align: center
+	margin: 20px auto 40px auto
+	//width: 80%
+	font-size: 16px
+	line-height: 1.2
+	color #5f5f5f
+
+.validate-form
+	input,textarea
+		width: 100%
+		margin-bottom: 20px
+.modal-send
+	@extend .btn--md
+	@extend .btn--mark
+	width: 100%
+
+.agree-row
+	f()
+	align-items: center
+	margin:10px 0 20px 0
+	a
+		text-decoration: underline
+		display: inline-block
+
+.agree-row__text
+	width: 100%
+	color black
+	font-size: 12px
+	a
+		color #9c9a9a
+		text-decoration: none
+
+.field-error
+	.error
+		display: none!important
+
+.field-error
+	input
+		border 1px solid #dc3d3d
+.style-label--checkbox.field-error
+	.sytle-input-element
+		border 1px solid #dc3d3d
+
+.modal-content--true
+	flex(mid)
+	fl()
+	br(10px)
+	.icon
+		fill green
+		size 120px
+		margin-bottom: 20px
+
+.modal-text-true
+	text-align: center
+	font-weight: bold
+
+//modal===end
+
+// select
+.nice-select
+	br(5px)
+	margin-bottom: 20px
+	display: block
+	color #000000
+	font-size 14px
+	font-weight 700
+	.list
+		width: calc(100% )
+		left 0px
+		border-radius 0 0 5px 5px
+		border 0px solid $border-color
+		border-top 0
+		margin-top: 0
+		li
+			white-space: nowrap
+			overflow: hidden
+			text-overflow: ellipsis
+	.current //max width dots
+		white-space: nowrap
+		overflow: hidden
+		text-overflow: ellipsis
+		display: inline-block
+		max-width 120px
+
+.nice-select.open
+	border-radius 5px 5px 0 0
+
+select.select-beauty
+	display: none!important
+
+.element-select
+	padding: 20px 0
+
+.nice-select:active, .nice-select.open, .nice-select:focus
+	border 1px solid $border-color
+// select === end
+
+// range slider
+.range__wrap
+	margin-bottom 50px
+	margin-top -20px
+	.irs-bar-edge
+		background blue
+		height 15px
+		border-radius 10px 0px 0px 10px
+		width 25px
+	.irs-bar
+		height 15px
+		background blue
+	.irs-line-left
+		height 15px
+		border-radius 10px 0px 0px 10px
+		background #e6ecf6
+	.irs-line-right
+		height 15px
+		background #e6ecf6
+		border-radius 0px 10px 10px 0px
+	.irs-line-mid
+		background #e6ecf6
+		height 15px
+	.irs-line
+		height 15px
+	.single
+		background url('../img/range-btn.png')
+	.irs-slider
+		width 45px
+		height 30px
+	.irs-min, .irs-max,.irs-single
+		top 45px
+		background transparent
+		color black
+.range__wrap--green
+	.irs-bar-edge
+		background green
+	.irs-bar
+		background green
+.range-set
+	flex(between)
+	input
+		+below(768px)
+			width 80px
+		padding 0
+		margin-bottom 10px
+		border 1px solid grey--light
+		padding 3px
+		font-size 16px
+		width 110px
+// range slider === end
+
+// slide menu
+.head-toggle
+	size 50px
+	flex(mid)
+	cp()
+	+above(1025px)
+		display: none
+	.icon
+		size 25px
+		fill white
+	.icon-close
+		display: none
+
+.head-toggle--open
+	.icon-close
+		display: block
+	.icon-open
+		display: none
+
+.slide-menu
+	+above(1025px)
+		display: none !important
+	+below(640px)
+		top: 51px //Высота хедера
+	+below(480px)
+		width: 100%
+	background: black
+	color white
+	position: fixed
+	height: calc(100% - 50px) //Отступ хедер
+	z-index 1250
+	top 54px
+	right 0
+	padding: 25px
+	width: 320px
+	transform translateX(100%)
+	tr(all)
+.slide-menu--open
+	transform translateX(0%)
+	overflow-y: auto
+.slide-menu__list
+	margin-bottom: 40px
+.slide-menu__list-el
+	display: block
+	margin-bottom: 40px
+	color white
+	font-size: 16px
+	up()
+	tr(all)
+	&:hover
+		color red
+.body-fix
+	position: fixed!important
+	overflow-Y: scroll!important
+	width:100%!important
+// slide menu === end
+
+// animate top menu
+@keyframes slideInDown
+	from
+		transform: translate3d(0, -100%, 0)
+		visibility: visible;
+	to
+		transform: translate3d(0, 0, 0)
+
+.shrink
+	position fixed
+	top 0
+	left 0
+	background white
+	width 100%
+	margin 0
+	animation:  slideInDown  1s 1 ease-in-out;
+// animate top menu === end
