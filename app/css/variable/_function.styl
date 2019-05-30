@@ -451,6 +451,13 @@ webfont(family, file, hack-chrome-windows = false, weight = 'normal')
 		font-weight weight
 		font-style normal
 
+font(name,file,size)
+	@font-face
+		font-family: name
+		src: url('../fonts/'+file+'.woff2') format('woff2'),url('../fonts/'+file+'.woff') format('woff')
+		font-weight: size
+		font-style: normal
+
 //bg-full-size
 bg-full()
 	background-size cover
