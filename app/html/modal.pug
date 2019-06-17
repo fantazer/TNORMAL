@@ -1,0 +1,27 @@
+include block_html/_style.pug
+include block_html/_include.pug
+
+style(type='text/css').
+	.btn--md {
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+
+	.btn-wrap {
+		display: flex;
+		flex-wrap: wrap;
+		flex-flow: column;
+		align-items: baseline;
+	}
+
+
+.main-cont
+	p Чтобы вызвать нужное окно добавь на элемент класс .modal-get и data-modal="имя окна"
+	p Чтобы добавить метод закрытия окна по клику на элемент добавиь класс .modal-send
+	.btn-wrap
+		.btn--md.btn--mark.modal-get(data-modal="order") Заявка | data-modal="code "
+
++footer()
++modal()
+
+include ./block_html/_script.pug
