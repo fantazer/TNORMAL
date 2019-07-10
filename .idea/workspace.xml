@@ -8,10 +8,9 @@
     <bookmark url="file://$PROJECT_DIR$/app/html" mnemonic="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix transition">
-      <change afterPath="$PROJECT_DIR$/app/img/svg/soc-telegram.svg" afterDir="false" />
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="add soc icon">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/svg/soc-youtube.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/svg/soc-youtube.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/variable/config/_input.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/config/_input.styl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,12 +113,16 @@
               <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/css/variable/config/_input.styl">
-              <provider selected="true" editor-type-id="text-editor" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="676">
+                  <caret line="111" column="23" lean-forward="true" selection-start-line="111" selection-start-column="23" selection-end-line="111" selection-end-column="23" />
+                </state>
+              </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/html/block_html/_style.pug">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="868">
@@ -211,6 +214,7 @@
         <option value="$PROJECT_DIR$/app/css/variable/_function.styl" />
         <option value="$PROJECT_DIR$/app/html/block_html/_script.pug" />
         <option value="$PROJECT_DIR$/app/html/block_html/_style.pug" />
+        <option value="$PROJECT_DIR$/app/css/variable/config/_input.styl" />
       </list>
     </option>
   </component>
@@ -226,6 +230,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FRONTEND" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FRONTEND" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FRONTEND" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FRONTEND" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -322,22 +342,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="FRONTEND" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FRONTEND" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FRONTEND" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FRONTEND" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -417,6 +421,8 @@
       <workItem from="1561392812642" duration="287000" />
       <workItem from="1561394516947" duration="116000" />
       <workItem from="1561472092614" duration="608000" />
+      <workItem from="1561564221091" duration="709000" />
+      <workItem from="1562765819493" duration="686000" />
     </task>
     <task id="LOCAL-00001" summary="fix browsersynk">
       <created>1515935102048</created>
@@ -593,16 +599,24 @@
       <option name="project" value="LOCAL" />
       <updated>1561394589226</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="add soc icon">
+      <created>1561564237284</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1561564237284</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44436000" />
+    <option name="totallyTimeSpent" value="45831000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2568" y="-264" width="2576" height="1416" extended-state="7" />
+    <frame x="-2568" y="-264" width="2576" height="1416" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49960846" visible="true" weight="0.096979335" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49960846" visible="true" weight="0.096979335" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.50039154" side_tool="true" weight="0.13076311" />
@@ -624,7 +638,7 @@
       <window_info anchor="right" id="Commander" order="3" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
-      <window_info anchor="right" id="Terminal" order="6" visible="true" weight="0.17130366" />
+      <window_info active="true" anchor="right" id="Terminal" order="6" visible="true" weight="0.17130366" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -673,7 +687,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="fix browsersynk" />
     <MESSAGE value="fix css variable + mozjpg" />
     <MESSAGE value="add modal + slick + some fixes" />
     <MESSAGE value="add readme" />
@@ -698,7 +711,8 @@
     <MESSAGE value="add icon + fix readme + add modal page" />
     <MESSAGE value="fix hrefs" />
     <MESSAGE value="fix transition" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix transition" />
+    <MESSAGE value="add soc icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="add soc icon" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/img/svg/arrow-up-fat.svg">
@@ -830,6 +844,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/svg/soc-telegram.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/html/main.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -885,9 +902,6 @@
     <entry file="file://$PROJECT_DIR$/app/css/variable/config/_btn.styl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/variable/config/_input.styl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/html/block_html/_script.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -916,13 +930,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/img/svg/soc-telegram.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/html/block_html/_style.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="868">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/variable/config/_input.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="111" column="23" lean-forward="true" selection-start-line="111" selection-start-column="23" selection-end-line="111" selection-end-column="23" />
         </state>
       </provider>
     </entry>

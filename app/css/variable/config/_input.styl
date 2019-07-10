@@ -88,3 +88,43 @@
 	line-height: 1.6
 	a
 		color $mark
+
+.input-row-half
+	+below(640px)
+		fw()
+		margin-bottom: 0
+	f()
+	justify-content: space-between
+	margin-bottom: 20px
+	.input-wrap
+		+below(640px)
+			width: 100%
+			margin-bottom: 20px
+		width: 48%
+
+.input-row__title
+	margin-bottom: 10px
+	opacity: .6
+
+.input-row
+	.input
+		width: 100%
+		margin-bottom: 20px
+	.nice-select
+		width: 100%
+
+.agree-row
+	f()
+	align-items: center
+	margin:10px 0 20px 0
+	a
+		text-decoration: underline
+		display: inline-block
+
+.agree-row__text
+	width: 100%
+	color black
+	font-size: 12px
+	a
+		color #9c9a9a
+		text-decoration: none
