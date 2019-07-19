@@ -8,9 +8,10 @@
     <bookmark url="file://$PROJECT_DIR$/app/html" mnemonic="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="add soc icon">
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix input style">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/variable/config/_input.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/config/_input.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/html/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/main.pug" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,16 +37,16 @@
     <splitter split-orientation="horizontal" split-proportion="0.5008148">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/html/main.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="84">
-                  <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+                <state relative-caret-position="168">
+                  <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/module/header/_header.pug">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="56">
@@ -113,11 +114,11 @@
               <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/css/variable/config/_input.styl">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="676">
-                  <caret line="111" column="23" lean-forward="true" selection-start-line="111" selection-start-column="23" selection-end-line="111" selection-end-column="23" />
+                <state>
+                  <caret lean-forward="true" />
                 </state>
               </provider>
             </entry>
@@ -158,11 +159,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/css/style.styl">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="280">
-                  <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+                <state relative-caret-position="784">
+                  <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -206,15 +207,15 @@
         <option value="$PROJECT_DIR$/app/html/block_html/_include.pug" />
         <option value="$PROJECT_DIR$/app/module/footer/_footer.pug" />
         <option value="$PROJECT_DIR$/app/js/script.js" />
-        <option value="$PROJECT_DIR$/app/css/style.styl" />
         <option value="$PROJECT_DIR$/app/html/modal.pug" />
         <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/app/html/main.pug" />
         <option value="$PROJECT_DIR$/app/css/variable/config/_typography.styl" />
         <option value="$PROJECT_DIR$/app/css/variable/_function.styl" />
         <option value="$PROJECT_DIR$/app/html/block_html/_script.pug" />
         <option value="$PROJECT_DIR$/app/html/block_html/_style.pug" />
         <option value="$PROJECT_DIR$/app/css/variable/config/_input.styl" />
+        <option value="$PROJECT_DIR$/app/html/main.pug" />
+        <option value="$PROJECT_DIR$/app/css/style.styl" />
       </list>
     </option>
   </component>
@@ -230,22 +231,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="FRONTEND" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FRONTEND" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FRONTEND" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FRONTEND" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -342,6 +327,22 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FRONTEND" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FRONTEND" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FRONTEND" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FRONTEND" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -422,7 +423,8 @@
       <workItem from="1561394516947" duration="116000" />
       <workItem from="1561472092614" duration="608000" />
       <workItem from="1561564221091" duration="709000" />
-      <workItem from="1562765819493" duration="686000" />
+      <workItem from="1562765819493" duration="746000" />
+      <workItem from="1563526471393" duration="58000" />
     </task>
     <task id="LOCAL-00001" summary="fix browsersynk">
       <created>1515935102048</created>
@@ -606,11 +608,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561564237284</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="fix input style">
+      <created>1562781408424</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1562781408424</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45831000" />
+    <option name="totallyTimeSpent" value="45949000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2568" y="-264" width="2576" height="1416" extended-state="0" />
@@ -687,7 +696,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="fix css variable + mozjpg" />
     <MESSAGE value="add modal + slick + some fixes" />
     <MESSAGE value="add readme" />
     <MESSAGE value="add new icon" />
@@ -712,7 +720,8 @@
     <MESSAGE value="fix hrefs" />
     <MESSAGE value="fix transition" />
     <MESSAGE value="add soc icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="add soc icon" />
+    <MESSAGE value="fix input style" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix input style" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/img/svg/arrow-up-fat.svg">
@@ -847,13 +856,6 @@
     <entry file="file://$PROJECT_DIR$/app/img/svg/soc-telegram.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/html/main.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/module/footer/_footer.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
@@ -889,18 +891,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/variable/config/_color.styl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/variable/config/_typography.styl">
+    <entry file="file://$PROJECT_DIR$/app/html/block_html/_style.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        <state relative-caret-position="868">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/variable/config/_btn.styl">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/html/block_html/_script.pug">
       <provider selected="true" editor-type-id="text-editor">
@@ -923,24 +919,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/style.styl">
+    <entry file="file://$PROJECT_DIR$/app/html/main.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/html/block_html/_style.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="868">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="168">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/css/variable/config/_input.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="111" column="23" lean-forward="true" selection-start-line="111" selection-start-column="23" selection-end-line="111" selection-end-column="23" />
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/variable/config/_btn.styl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/variable/config/_typography.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/variable/config/_color.styl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/style.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
         </state>
       </provider>
     </entry>
