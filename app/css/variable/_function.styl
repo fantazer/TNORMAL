@@ -6,6 +6,18 @@ no-select()
 	-ms-user-select: none
 	user-select: none
 
+link($color=#e5e5e5)
+	background-image: linear-gradient(to bottom, $color 0%, $color 100%);
+	background-size: 100% 1px;
+	background-repeat: no-repeat;
+	background-position: bottom
+	text-decoration: none
+	padding-bottom:4px
+	tr(all)
+	line-height: 1.6
+	&:hover
+		background-size: 0 1px
+
 btnStyle(bg-btn,color-btn)
 	background bg-btn
 	color color-btn

@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="add full page template">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/block_html/_style.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/block_html/_style.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/variable/_function.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/_function.styl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -122,6 +122,8 @@
       <workItem from="1563526471393" duration="720000" />
       <workItem from="1564413977898" duration="124000" />
       <workItem from="1564501872048" duration="119000" />
+      <workItem from="1564509546670" duration="4000" />
+      <workItem from="1564580660394" duration="21000" />
     </task>
     <task id="LOCAL-00001" summary="fix browsersynk">
       <created>1515935102048</created>
