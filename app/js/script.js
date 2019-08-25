@@ -80,7 +80,7 @@ $('.head-toggle').click(function(event){
 	event.stopPropagation();
 	$(this).toggleClass('head-toggle--open');
 	$('.slide-menu').toggleClass('slide-menu--open');
-	$('body').toggleClass('body-fix')
+	//$('body').toggleClass('body-fix')
 });
 
 $('.slide-menu').on("click", function (event) {
