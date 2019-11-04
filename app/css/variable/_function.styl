@@ -494,3 +494,16 @@ bsh-hover()
 	transition box-shadow .8s
 	&:hover
 		box-shadow 0 18px 32px #e3e3e3
+
+animateHide()
+	position absolute
+	left -9999px
+	opacity: 0
+	top 0
+
+animateShow()
+	position: initial
+	left initial
+	top initial
+	transition opacity .6s
+	opacity: 1

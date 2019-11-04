@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="add mixin link">
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix slide menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/variable/_function.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/_function.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/variable/config/_btn.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/config/_btn.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/variable/config/_input.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/config/_input.styl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,17 +26,6 @@
       <favorite_root url="file://$PROJECT_DIR$/app/html/block_html/_style.pug" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
       <favorite_root url="file://$PROJECT_DIR$/app/html/block_html/_const.pug" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
     </favorites_list>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>pug</find>
-      <find>Основные таски</find>
-      <find>_constant-guide</find>
-      <find>_constant-guide.styl</find>
-      <find>shrink</find>
-      <find>svg</find>
-      <find>tran</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -124,7 +115,9 @@
       <workItem from="1564501872048" duration="119000" />
       <workItem from="1564509546670" duration="4000" />
       <workItem from="1564580660394" duration="646000" />
-      <workItem from="1566731813438" duration="39000" />
+      <workItem from="1566731813438" duration="357000" />
+      <workItem from="1572709522288" duration="653000" />
+      <workItem from="1572853685272" duration="1213000" />
     </task>
     <task id="LOCAL-00001" summary="fix browsersynk">
       <created>1515935102048</created>
@@ -329,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564580702388</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="fix slide menu">
+      <created>1566731873740</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1566731873740</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +365,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="add new icon" />
     <MESSAGE value="fix bower.json" />
     <MESSAGE value="fix style modal" />
     <MESSAGE value="fix bug code comment" />
@@ -390,6 +389,7 @@
     <MESSAGE value="fix input style" />
     <MESSAGE value="add full page template" />
     <MESSAGE value="add mixin link" />
-    <option name="LAST_COMMIT_MESSAGE" value="add mixin link" />
+    <MESSAGE value="fix slide menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix slide menu" />
   </component>
 </project>
