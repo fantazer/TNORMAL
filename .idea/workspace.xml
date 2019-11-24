@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix slide menu">
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix btn + animateShow function">
+      <change afterPath="$PROJECT_DIR$/app/img/svg/facebook--color.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/svg/instagram--color.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/svg/shopping-cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/svg/vk--color.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/variable/_function.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/_function.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/variable/config/_btn.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/config/_btn.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/variable/config/_input.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/config/_input.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/variable/config/_typography.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/config/_typography.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/script.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +37,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1OgzLs5tRzA7rKn4Yudy7oRwBFY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="clone&#9;ACTION&#9;Git.Clone" />
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -117,7 +126,13 @@
       <workItem from="1564580660394" duration="646000" />
       <workItem from="1566731813438" duration="357000" />
       <workItem from="1572709522288" duration="653000" />
-      <workItem from="1572853685272" duration="1213000" />
+      <workItem from="1572853685272" duration="3424000" />
+      <workItem from="1573053151336" duration="66000" />
+      <workItem from="1573075103075" duration="602000" />
+      <workItem from="1573332965326" duration="673000" />
+      <workItem from="1573589857939" duration="11000" />
+      <workItem from="1573643138710" duration="19000" />
+      <workItem from="1574600755981" duration="113000" />
     </task>
     <task id="LOCAL-00001" summary="fix browsersynk">
       <created>1515935102048</created>
@@ -329,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566731873740</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="fix btn + animateShow function">
+      <created>1572863739175</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1572863739175</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +387,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="fix bower.json" />
     <MESSAGE value="fix style modal" />
     <MESSAGE value="fix bug code comment" />
     <MESSAGE value="fix checkbox + radio" />
@@ -390,6 +411,7 @@
     <MESSAGE value="add full page template" />
     <MESSAGE value="add mixin link" />
     <MESSAGE value="fix slide menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix slide menu" />
+    <MESSAGE value="fix btn + animateShow function" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix btn + animateShow function" />
   </component>
 </project>
