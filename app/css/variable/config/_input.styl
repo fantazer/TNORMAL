@@ -89,30 +89,13 @@
 	a
 		color $mark
 
-.input-row-half
-	+below(640px)
-		fw()
-		margin-bottom: 0
-	f()
-	justify-content: space-between
-	margin-bottom: 20px
-	.input-wrap
-		+below(640px)
-			width: 100%
-			margin-bottom: 20px
-		width: 48%
-
-.input-row__title
-	margin-bottom: 10px
-	opacity: .6
-
+//form
 .input-row
+	margin-bottom: 20px
 	.input
 		width: 100%
-		margin-bottom: 20px
-	.nice-select
-		width: 100%
-
+.input-row__title
+	margin-bottom: 10px
 
 .input-row--error
 	.input
@@ -123,20 +106,123 @@
 .error-msg
 	color $red
 	margin: 10px 0
+	display none
 
+.input-cont
+	display: grid
+	grid-gap 20px
+.input-cont--two
+	grid-template-columns: 1fr 1fr
+	+below(640px)
+		grid-template-columns: 1fr
+.input-cont--three
+	grid-template-columns: 1fr 1fr 1fr
+	+below(640px)
+		grid-template-columns: 1fr
 
-.agree-row
+//checkbox remember
+.login-remember
+	.style-label
+		+below(768px)
+			align-items: flex-start
+	.sytle-input-text
+		font-size: 14px
+		color black
+		width: calc(100% - 80px)
+		line-height: 1.6
+		a
+			color $mark
+	margin-bottom: 20px
+
+.input-get
 	f()
-	align-items: center
-	margin:10px 0 20px 0
-	a
-		text-decoration: underline
-		display: inline-block
+	align-items stretch
+	margin-bottom: 20px
+	.input
+		border-radius 5px 0 0 5px
+.input-get__btn
+	position relative
+	.icon
+		position absolute
+		size 14px
+		fill white
+		top 50%
+		left 50%
+		margin-left: -7px
+		margin-top: -7px
+	.input-get__btn-el
+		height: 100%
+		background: $mark
+		border-radius 0 5px 5px 0
+		border 0
+		width: 60px
+		&:hover
+			background: darken($mark,5)
 
-.agree-row__text
-	width: 100%
-	color black
-	font-size: 12px
-	a
-		color #9c9a9a
-		text-decoration: none
+//upload
+.upload-wrap
+	flex(mid)
+	fw()
+	margin-bottom: 20px
+.upload
+	f()
+	cp()
+	br(10px)
+	align-items: flex-start
+	justify-content: center
+	border 1px solid $border-color
+	box-shadow 0px 3px 14px white
+	tr(all)
+	margin-bottom: 10px
+	&:hover
+		bsh()
+.upload__icon
+	padding: 10px
+	border-right 1px solid $border-color
+	height: 50px
+	flex(mid)
+	.icon
+		size 25px
+		fill $red
+.upload__text
+	height: 50px
+	margin-left: -1px
+	padding: 15px
+	width: auto
+	flex(mid)
+.upload-img
+	flex(mid)
+.upload-img__el
+	size 50px
+	br(10px)
+	border 1px solid $border-color
+	margin-right: 10px
+	margin-bottom: 10px
+	background-size: cover
+	background-repeat: no-repeat
+	position: relative
+	overflow: hidden
+	cp()
+	&:hover
+		&:before
+			content 'X'
+			opacity:1
+
+	&:before
+		content 'X'
+		position: absolute
+		background: #000000b3
+		width: 100%
+		height: 100%
+		left 0
+		top 0
+		flex(mid)
+		color white
+		opacity:0
+		tr(all)
+.upload-btn
+	position: absolute
+	left -9999px
+
+
+//form

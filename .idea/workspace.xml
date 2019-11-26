@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix btn + animateShow function">
-      <change afterPath="$PROJECT_DIR$/app/img/svg/facebook--color.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg/instagram--color.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg/shopping-cart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg/vk--color.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/variable/config/_btn.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/config/_btn.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/variable/config/_input.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/config/_input.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/variable/config/_typography.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/config/_typography.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/script.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,6 +124,8 @@
       <workItem from="1573589857939" duration="11000" />
       <workItem from="1573643138710" duration="19000" />
       <workItem from="1574600755981" duration="113000" />
+      <workItem from="1574720197948" duration="222000" />
+      <workItem from="1574773475287" duration="1477000" />
     </task>
     <task id="LOCAL-00001" summary="fix browsersynk">
       <created>1515935102048</created>
