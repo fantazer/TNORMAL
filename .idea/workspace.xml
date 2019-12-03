@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix btn + animateShow function">
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="add input style">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.styl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +126,8 @@
       <workItem from="1573643138710" duration="19000" />
       <workItem from="1574600755981" duration="113000" />
       <workItem from="1574720197948" duration="222000" />
-      <workItem from="1574773475287" duration="1477000" />
+      <workItem from="1574773475287" duration="2234000" />
+      <workItem from="1574927903210" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="fix browsersynk">
       <created>1515935102048</created>
@@ -344,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572863739175</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="add input style">
+      <created>1574802836782</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1574802836782</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +389,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="fix style modal" />
     <MESSAGE value="fix bug code comment" />
     <MESSAGE value="fix checkbox + radio" />
     <MESSAGE value="add icons" />
@@ -405,6 +413,7 @@
     <MESSAGE value="add mixin link" />
     <MESSAGE value="fix slide menu" />
     <MESSAGE value="fix btn + animateShow function" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix btn + animateShow function" />
+    <MESSAGE value="add input style" />
+    <option name="LAST_COMMIT_MESSAGE" value="add input style" />
   </component>
 </project>
