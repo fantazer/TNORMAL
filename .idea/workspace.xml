@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix shrink">
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix radio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/block_html/_mixin.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/block_html/_mixin.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/svg/check-round.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/svg/check-round.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/svg/menu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/svg/menu.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/module/modal/_modal.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/module/modal/_modal.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +138,8 @@
       <workItem from="1575358136937" duration="806000" />
       <workItem from="1575915493208" duration="50000" />
       <workItem from="1576487600572" duration="822000" />
-      <workItem from="1577618275430" duration="35000" />
+      <workItem from="1577618275430" duration="677000" />
+      <workItem from="1581417917810" duration="95000" />
     </task>
     <task id="LOCAL-00001" summary="fix browsersynk">
       <created>1515935102048</created>
@@ -373,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575358156367</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="fix radio">
+      <created>1577618353073</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1577618353073</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,7 +415,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="fix checkbox + radio" />
     <MESSAGE value="add icons" />
     <MESSAGE value="add icons + fix constants" />
     <MESSAGE value="add prettier for pug" />
@@ -434,6 +439,17 @@
     <MESSAGE value="fix btn + animateShow function" />
     <MESSAGE value="add input style" />
     <MESSAGE value="fix shrink" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix shrink" />
+    <MESSAGE value="fix radio" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix radio" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="605" y="114" key="CommitChangelistDialog2" timestamp="1577618350931">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="605" y="114" key="CommitChangelistDialog2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@0.0.1920.1040" timestamp="1577618350931" />
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2" timestamp="1577618354776">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@0.0.1920.1040" timestamp="1577618354776" />
   </component>
 </project>

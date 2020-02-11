@@ -5,21 +5,17 @@ var gulpif = require('gulp-if');
 var uglify = require('gulp-uglify');
 var minifyCss = require('gulp-minify-css');
 var stylus = require('gulp-stylus');
-var sourcemaps = require('gulp-sourcemaps');
 var browserSync = require('browser-sync').create();
 var ftp = require( 'vinyl-ftp' );
 var reload = browserSync.reload;
 var rupture = require('rupture');
 var data = require('gulp-data');
-//var jade = require('gulp-jade');
 var notify = require('gulp-notify');
 var pngquant = require('imagemin-pngquant');
 var imageminMozjpeg = require('imagemin-mozjpeg');
 var imagemin = require('gulp-imagemin');
-var cache = require('gulp-cached');
 var newer = require('gulp-newer');
 var remember = require('gulp-remember');
-var spritesmith = require('gulp.spritesmith');
 var runSequence = require('run-sequence');
 var progeny = require('gulp-progeny');
 var filter = require('gulp-filter');
@@ -28,44 +24,17 @@ var prettify = require('gulp-prettify');
 var combineMq = require('gulp-combine-mq');
 var webshot=require('gulp-webshot');
 var createFile = require('create-file');
-//var jadeGlobbing  = require('gulp-jade-globbing');
-//var wiredep = require('wiredep').stream;
-var clean = require('gulp-clean');
 var svgSprite = require('gulp-svg-sprite');
 var svgSpriteTempl = require('gulp-svg-sprites');
 var rename = require('gulp-rename');
 var svgmin = require('gulp-svgmin');
 var cheerio = require('gulp-cheerio');
-var replace = require('gulp-replace');
-var zip = require('gulp-zip');
-var pugInheritance = require('gulp-pug-inheritance');
-var changed = require('gulp-changed');
 var pug = require('gulp-pug');
-var favicons = require("gulp-favicons");
 var emitty = require('emitty').setup('app/html', 'pug');
 var prettify = require('gulp-html-prettify');
-
+var cache = require('gulp-cached');
 // ########## make img ###############
 
-//favicon
-gulp.task("favicon", function () {
-    return gulp.src("app/img/logo.png")
-    .pipe(favicons({
-    android: true,
-    apple: true,
-    coast: true,
-    favicons: true,
-    firefox: true,
-    opengraph: false,
-    windows: true,
-    background: 'transparent',
-    tileBlackWhite: false,
-    manifest: null,
-    trueColor: false,
-    logging: true
-    }))
-    .pipe(gulp.dest("app/img/fav/"));
-});
 
 //compress image
 gulp.task('imageCompress',function(){
@@ -137,27 +106,7 @@ gulp.task('svg', function () {
 
 
 
-//Sprite
-gulp.task('sprite', function () {
-		var spriteData = gulp.src('app/img/sprites/*.png').pipe(spritesmith({
-				imgName: '../img/sprite.png',
-				cssName: 'sprite.css',
-				cssOpts: {
-						cssSelector: function (item) {
-								// If this is a hover sprite, name it as a hover one (e.g. 'home-hover' -> 'home:hover')
-								if (item.name.indexOf('-hover') !== -1) {
-										return '.icon-' + item.name.replace('-hover', ':hover');
-										// Otherwise, use the name as the selector (e.g. 'home' -> 'home')
-								}
-								else {
-										return '.icon-' + item.name;
-								}
-						}
-				}
-		}));
-		spriteData.img.pipe(gulp.dest('app/img/')); // путь, куда сохраняем картинку
-		spriteData.css.pipe(gulp.dest('app/css/icon/')); // путь, куда сохраняем стили
-});
+
 
 //ScreenShot
 gulp.task('screenshot', function() {
@@ -391,37 +340,6 @@ gulp.task('file',function(){
 						}
 				}
 		}
-})
-
-
-
-// Return timestamp
-function correctNumber(number) {
-		return number < 10 ? '0' + number : number;
-}
-
-function getDateTime() {
-		var now = new Date();
-		var year = now.getFullYear();
-		var month = correctNumber(now.getMonth() + 1);
-		var day = correctNumber(now.getDate());
-		var hours = correctNumber(now.getHours());
-		var minutes = correctNumber(now.getMinutes());
-		return year + '-' + month + '-' + day + '-' + hours + minutes;
-}
-
-// make zip archive
-gulp.task('zip', function() {
-		var datetime = '-' + getDateTime();
-		var zipName = 'dist' + datetime + '.zip';
-
-		return gulp.src('dist/**/**/**/*')
-				.pipe(zip(zipName))
-				.pipe(gulp.dest('zip'));
-});
-
-gulp.task('listSvg',function(){
-
 });
 
 
