@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix radio">
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix package + gulp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/variable/_function.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/_function.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/variable/config/_typography.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/config/_typography.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/html/block_html/_script.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/block_html/_script.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/html/block_html/_style.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/block_html/_style.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="clone&#9;ACTION&#9;Git.Clone" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TNORMAL-EDIT" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -139,7 +142,8 @@
       <workItem from="1575915493208" duration="50000" />
       <workItem from="1576487600572" duration="822000" />
       <workItem from="1577618275430" duration="677000" />
-      <workItem from="1581417917810" duration="95000" />
+      <workItem from="1581417917810" duration="2618000" />
+      <workItem from="1589364070651" duration="1913000" />
     </task>
     <task id="LOCAL-00001" summary="fix browsersynk">
       <created>1515935102048</created>
@@ -379,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577618353073</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="fix package + gulp">
+      <created>1581418066426</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1581418066426</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -415,7 +426,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="add icons" />
     <MESSAGE value="add icons + fix constants" />
     <MESSAGE value="add prettier for pug" />
     <MESSAGE value="regroup _constant.styl" />
@@ -440,16 +450,25 @@
     <MESSAGE value="add input style" />
     <MESSAGE value="fix shrink" />
     <MESSAGE value="fix radio" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix radio" />
+    <MESSAGE value="fix package + gulp" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix package + gulp" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="605" y="114" key="CommitChangelistDialog2" timestamp="1577618350931">
+    <state x="605" y="114" key="CommitChangelistDialog2" timestamp="1581418064732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="605" y="114" key="CommitChangelistDialog2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@0.0.1920.1040" timestamp="1577618350931" />
-    <state x="0" y="0" key="Vcs.Push.Dialog.v2" timestamp="1577618354776">
+    <state x="605" y="114" key="CommitChangelistDialog2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@0.0.1920.1040" timestamp="1581418064732" />
+    <state x="-1500" y="199" key="FileChooserDialogImpl" timestamp="1589364217162">
+      <screen x="-2560" y="-256" width="2560" height="1400" />
+    </state>
+    <state x="-1500" y="199" key="FileChooserDialogImpl/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1589364217162" />
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2" timestamp="1581418088164">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" key="Vcs.Push.Dialog.v2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@0.0.1920.1040" timestamp="1577618354776" />
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@0.0.1920.1040" timestamp="1581418088164" />
+    <state x="-1617" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1589371639457">
+      <screen x="-2560" y="-256" width="2560" height="1400" />
+    </state>
+    <state x="-1617" y="59" width="672" height="678" key="search.everywhere.popup/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1589371639457" />
   </component>
 </project>
