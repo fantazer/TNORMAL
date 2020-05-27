@@ -1,0 +1,16 @@
+include block_html/_style.pug
+include block_html/_include.pug
+
+.page
+	+header()
+	.content.content.content--mid
+		//product-cont
+		.main-cont
+			.page-error
+				.page-error__title Ошибка
+				.page-error__img
+					img(src="img/404.svg", alt="")
+				.page-error__text Страница не найдена
+				a(href="#").page-error__get на главную
+	+footer()
+include ./block_html/_script.pug

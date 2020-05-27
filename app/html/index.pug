@@ -1,15 +1,43 @@
 include block_html/_style.pug
 include block_html/_include.pug
 
+style(type='text/css').
+	.all-page__el {
+		padding: 5px;
+		box-shadow: 0px 3px 8px #e3e3e3;
+		border-radius: 10px;
+	}
 
+	.all-page__el:hover {
+		box-shadow: 0px 3px 3px #e3e3e3;
+		transition: box-shadow 0.8s;
+	}
+
+	.all-page__el:hover:hover {
+		box-shadow: 0 18px 32px #e3e3e3;
+	}
+
+	.all-page {
+		display: grid;
+		grid-gap: 20px;
+		grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+		margin-bottom: 30px;
+	}
+
+	.all-page__title {
+		text-align: center;
+		padding: 10px;
+		font-size: 16px;
+		color: #000;
+	}
 .main-cont
 	h1 Список страниц
 	.all-page
-			each page in pages
-				a(href=''+page.href+'.html').all-page__el
-					img(src='img/screen/app/'+page.href+'.png', alt="")
-					.all-page__info
-						.all-page__title #{page.name}
+		each page in pages
+			a(href='' + page.href + '.html').all-page__el
+				img(src='img/screen/app/' + page.href + '.png', alt="")
+				.all-page__info
+					.all-page__title #{page.name}
 
 
 include ./block_html/_script.pug

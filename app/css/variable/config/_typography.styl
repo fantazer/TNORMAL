@@ -51,6 +51,9 @@ font-size 40px
 .type--bold
 	font-weight bold
 
+.type--center
+	text-align center
+
 h1
 	@extend .type--xl
 h2
@@ -108,3 +111,28 @@ p
 			margin-bottom: 10px
 			&:last-child
 				margin-bottom: 0
+
+// icons
+.icon-row
+	f()
+	fw()
+	align-items center
+
+.icon--sm
+	size 16px
+
+.icon--md
+	size 24px
+
+.icon--left
+	margin-left: 10px
+
+.icon--right
+	margin-right: 10px
+
+.icon--mark
+	fill $mark
+
+.icon--gray
+	fill $gray
+// icons === end

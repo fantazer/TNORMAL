@@ -1,6 +1,5 @@
 @import 'rupture'
 @import "variable/_function.styl"
-@import "variable/_fonts.styl"
 @import "variable/_ie.styl"
 @import "variable/_helper.styl"
 @import "variable/_default.styl"
@@ -28,6 +27,8 @@ body
 .content
 	flex-grow 1
 
+.content--mid
+	flex(mid)
 
 // animate top menu
 @keyframes slideInDown
@@ -47,3 +48,193 @@ body
 	animation:  slideInDown  1s 1 ease-in-out;
 	z-index 10
 // animate top menu === end
+
+// error
+.page-error
+	flex(mid)
+	fl()
+	height: 100%
+.page-error__title
+	@extend .type--xl
+	margin-bottom: 30px
+	font-weight: 700
+	color $gray
+.page-error__img
+	margin-bottom: 30px
+.page-error__text
+	@extend .type--md
+	color $gray
+	margin-bottom: 30px
+.page-error__get
+	@extend .btn--md
+	@extend .btn--mark
+// error === end
+
+// modal
+.modal-layer
+	width: 100%
+	height: 100vh
+	position: fixed
+	z-index 1000
+	top 0
+	left 0
+	visibility: hidden
+	transition all 1s // duration for fade
+	opacity 0
+
+.modal-layer-show
+	visibility: visible
+	opacity 1
+
+.modal-cont
+	width: 100%
+	height: 100%
+	position: relative
+	max-height 100%
+	overflow: auto
+
+.modal-filter
+	position: absolute
+	top: 0
+	left: 0
+	background: #18191da1
+	width: 100%
+	height: 100vh
+	min-height 100vh
+
+.modal
+	+below(768px)
+		width: 100%
+		box-shadow 0 0 0
+	transform scale(.9)
+	position: absolute
+	opacity 0
+	transition transform .6s, opacity .8s
+	max-width 420px
+	z-index -1
+	left -9999px
+	.order__row
+		margin-bottom: 20px
+		border-bottom 0
+
+.modal-content
+	+below(640px)
+		height: 100%
+		padding: 20px
+		overflow-y scroll
+		width: 95%!important
+		margin: 20px auto
+	background: white
+	position: relative
+	padding: 40px 45px
+	br(40px)
+
+.modal__show
+	max-height 100%
+	opacity 1
+	transform scale(1)
+	position: relative
+	z-index 1000
+	left initial
+	transition transform .6s, opacity .8s
+.modal-close
+	+below(768px)
+		top 12px
+		right 12px
+	position: absolute
+	top: 20px
+	right: 20px
+	cp()
+	size 50px
+	br(20px)
+	flex(mid)
+	z-index 10
+	background: #f8f8f8
+	&:hover
+		.icon
+			opacity: 1
+	.icon
+		tr()
+		size 12px
+		fill black
+		opacity:.3
+
+.modal-hide-animation
+	transform scale(.9)
+	opacity 0
+	transition transform .6s, opacity .8s
+.modal-open
+	overflow: hidden
+	overflow-y: scroll
+	position: fixed
+	top: 0
+	left: 0
+	right: 0
+	bottom: 0
+	width: 100%
+
+.modal-wrap
+	position: fixed
+	width: 100%
+	height: 100%
+	overflow-y auto
+	flex(mid)
+
+.modal-title
+	+below(768px)
+		font-size: 20px
+	margin-bottom: 20px
+	text-align: center
+	@extend .type--xl
+	font-weight: 700
+
+.modal-text
+	+below(768px)
+		width: 100%
+		font-size: 12px
+	text-align: center
+	margin: 20px auto
+	//width: 80%
+	line-height: 1.6
+
+
+.modal-send
+	@extend .btn--md
+	@extend .btn--mark
+	width: 100%
+// modal === end
+
+// cookie
+.cookie
+	position: fixed
+	bottom 20px
+	left 0
+	width: 100%
+	transform translateY(10px)
+	opacity: 0
+	z-index -1
+	tr()
+.cookie--active
+	z-index 20
+	opacity: 1
+	transform translateY(0)
+.cookie-wrap
+	bsh()
+	padding: 15px 20px
+	br(20px)
+	z-index 10
+	background: white
+	f()
+	justify-content: space-between
+	.icon
+		&:hover
+			fill black
+		tr()
+		size 14px
+		margin-left: 10px
+		fill $gray
+		cp()
+.cookie-text
+	width calc(100% - 30px)
+	font-size: 12px
+// cookie === end
