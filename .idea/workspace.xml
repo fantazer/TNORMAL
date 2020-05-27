@@ -1,54 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix location fonts + scripts">
-      <change afterPath="$PROJECT_DIR$/app/html/error-404.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/html/error-500.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/js/add-on.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gemini.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/frontend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frontend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/variable/_default.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/_default.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/variable/_fonts.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/variable/_helper.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/_helper.styl" afterDir="false" />
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="add version 3.0.1">
       <change beforePath="$PROJECT_DIR$/app/css/variable/config/_input.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/config/_input.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/variable/config/_typography.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/config/_typography.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/block_html/_const.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/block_html/_const.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/block_html/_mixin.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/block_html/_mixin.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/block_html/_script.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/block_html/_script.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/block_html/_style.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/block_html/_style.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/svg/close.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/svg/close.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/svg/garbage.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/svg/menu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/svg/menu.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/svg/minus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/svg/minus.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/svg/plus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/svg/plus.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/svg/soc-google.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gemini/test.gemeni.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/homepage.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/kss-assets/WARNING.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/kss-assets/github-fork--black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/kss-assets/homepage.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/kss-assets/kss.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/kss-assets/kss.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/kss-assets/kss.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/kss-assets/noise-low.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/kss-assets/prettify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/kss-assets/sample-inline.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/kss-assets/sample-inline.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/kss-assets/sample.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/kss-assets/sample.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/kss-assets/scrollspy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/section-0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/section-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/section-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/section-3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/section-4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/section-settings.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +143,7 @@
       <workItem from="1589629264977" duration="2318000" />
       <workItem from="1589894377476" duration="82000" />
       <workItem from="1590492233361" duration="6105000" />
-      <workItem from="1590574811300" duration="1314000" />
+      <workItem from="1590574811300" duration="2814000" />
     </task>
     <task id="LOCAL-00001" summary="fix browsersynk">
       <created>1515935102048</created>
@@ -443,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589374751283</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="add version 3.0.1">
+      <created>1590580140434</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1590580140434</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,7 +440,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="add prettier for pug" />
     <MESSAGE value="regroup _constant.styl" />
     <MESSAGE value="small fix" />
     <MESSAGE value="add workspace" />
@@ -504,13 +464,15 @@
     <MESSAGE value="fix radio" />
     <MESSAGE value="fix package + gulp" />
     <MESSAGE value="fix location fonts + scripts" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix location fonts + scripts" />
+    <MESSAGE value="add version 3.0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="add version 3.0.1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1753" y="-103" key="CommitChangelistDialog2" timestamp="1589374749464">
+    <state x="-1753" y="-103" key="CommitChangelistDialog2" timestamp="1590580136775">
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
     <state x="-1753" y="-103" key="CommitChangelistDialog2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1589374749464" />
+    <state x="-1753" y="-103" key="CommitChangelistDialog2/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1590580136775" />
     <state x="-1500" y="199" key="FileChooserDialogImpl" timestamp="1589364217162">
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
@@ -519,14 +481,15 @@
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
     <state x="-1779" y="87" key="SettingsEditor/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1590493515833" />
-    <state x="-2560" y="-256" key="Vcs.Push.Dialog.v2" timestamp="1589374754599">
+    <state x="-2560" y="-256" key="Vcs.Push.Dialog.v2" timestamp="1590580153217">
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
     <state x="-2560" y="-256" key="Vcs.Push.Dialog.v2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1589374754599" />
-    <state x="-1617" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1590580064629">
+    <state x="-2560" y="-256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1590580153217" />
+    <state x="-1617" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1590582171196">
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
     <state x="-1617" y="59" width="672" height="678" key="search.everywhere.popup/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1590507046175" />
-    <state x="-1617" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1590580064629" />
+    <state x="-1617" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1590582171196" />
   </component>
 </project>
