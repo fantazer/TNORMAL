@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix color input">
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/variable/config/_input.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/config/_input.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/main.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +34,6 @@
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
@@ -54,18 +52,6 @@
       <recent name="E:\PROJECT\STEND\FRONTEND\app\css\variable\config" />
       <recent name="E:\PROJECT\STEND\FRONTEND\app\js" />
     </key>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -145,7 +131,10 @@
       <workItem from="1589629264977" duration="2318000" />
       <workItem from="1589894377476" duration="82000" />
       <workItem from="1590492233361" duration="6105000" />
-      <workItem from="1590574811300" duration="4680000" />
+      <workItem from="1590574811300" duration="5324000" />
+      <workItem from="1590656941051" duration="627000" />
+      <workItem from="1590665172742" duration="2259000" />
+      <workItem from="1593082895495" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="fix browsersynk">
       <created>1515935102048</created>
@@ -413,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590582208471</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="fix">
+      <created>1590600229396</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1590600229396</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,9 +420,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -445,11 +439,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="small fix" />
     <MESSAGE value="add workspace" />
     <MESSAGE value="fix gulp version" />
     <MESSAGE value="fix svg parser" />
@@ -474,14 +468,15 @@
     <MESSAGE value="fix location fonts + scripts" />
     <MESSAGE value="add version 3.0.1" />
     <MESSAGE value="fix color input" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix color input" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1753" y="-103" key="CommitChangelistDialog2" timestamp="1590582207066">
+    <state x="-1753" y="-103" key="CommitChangelistDialog2" timestamp="1590600228007">
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
     <state x="-1753" y="-103" key="CommitChangelistDialog2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1589374749464" />
-    <state x="-1753" y="-103" key="CommitChangelistDialog2/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1590582207066" />
+    <state x="-1753" y="-103" key="CommitChangelistDialog2/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1590600228007" />
     <state x="-1500" y="199" key="FileChooserDialogImpl" timestamp="1589364217162">
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
@@ -490,11 +485,11 @@
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
     <state x="-1779" y="87" key="SettingsEditor/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1590493515833" />
-    <state x="-2560" y="-256" key="Vcs.Push.Dialog.v2" timestamp="1590582212926">
+    <state x="-2560" y="-256" key="Vcs.Push.Dialog.v2" timestamp="1590600294109">
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
     <state x="-2560" y="-256" key="Vcs.Push.Dialog.v2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1589374754599" />
-    <state x="-2560" y="-256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1590582212926" />
+    <state x="-2560" y="-256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1590600294109" />
     <state x="-1617" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1590582171196">
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
