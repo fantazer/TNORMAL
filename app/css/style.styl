@@ -106,13 +106,15 @@ body
 	+below(768px)
 		width: 100%
 		box-shadow 0 0 0
-	transform scale(.9)
+	transform scale(.9) translateZ(0) translate3d(0, 0, 0)
+	will-change: transform, opacity;
+	backface-visibility: hidden
 	position: absolute
 	opacity 0
 	transition transform .6s, opacity .8s
-	max-width 420px
-	z-index -1
+	max-width 400px
 	left -9999px
+	top -9999px
 	.order__row
 		margin-bottom: 20px
 		border-bottom 0
@@ -132,11 +134,14 @@ body
 .modal__show
 	max-height 100%
 	opacity 1
-	transform scale(1)
+	transform scale(1) translateZ(0) translate3d(0, 0, 0)
 	position: relative
 	z-index 1000
 	left initial
+	top initial
 	transition transform .6s, opacity .8s
+	will-change: transform, opacity
+
 .modal-close
 	+below(768px)
 		top 12px
