@@ -16,7 +16,7 @@
 		"jquery": "~2.1.4",
 		"normalize.css": "~3.0.3",
 		"slick-carousel": "^1.8.1",
-		"perfect-scrollbar": "^0.6.14",
+		"jquery.nicescroll": "^3.7.6",
     "jquery-nice-select": "^1.1.0",
     "ion-rangeslider": "ionrangeslider#^2.3.1"
 	}
