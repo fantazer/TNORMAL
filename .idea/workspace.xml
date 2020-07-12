@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix fonts">
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix bower script scroll template">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/html/elements.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/elements.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +129,8 @@
       <workItem from="1593424416364" duration="616000" />
       <workItem from="1593682956145" duration="1278000" />
       <workItem from="1594117887326" duration="1268000" />
-      <workItem from="1594210320795" duration="139000" />
+      <workItem from="1594210320795" duration="1371000" />
+      <workItem from="1594563387924" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="fix browsersynk">
       <created>1515935102048</created>
@@ -425,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594117942074</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="fix bower script scroll template">
+      <created>1594210491349</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1594210491349</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +468,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="fix include style files" />
     <MESSAGE value="fix typography" />
     <MESSAGE value="add modal + bsh-hover()" />
     <MESSAGE value="add mixin font()" />
@@ -485,14 +492,15 @@
     <MESSAGE value="migrate to node v11.6" />
     <MESSAGE value="fix modal animation bug" />
     <MESSAGE value="fix fonts" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix fonts" />
+    <MESSAGE value="fix bower script scroll template" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bower script scroll template" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="605" y="114" key="CommitChangelistDialog2" timestamp="1594210360277">
+    <state x="605" y="114" key="CommitChangelistDialog2" timestamp="1594210490240">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1753" y="-103" key="CommitChangelistDialog2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1594117939960" />
-    <state x="605" y="114" key="CommitChangelistDialog2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@0.0.1920.1040" timestamp="1594210360277" />
+    <state x="605" y="114" key="CommitChangelistDialog2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@0.0.1920.1040" timestamp="1594210490240" />
     <state x="-1753" y="-103" key="CommitChangelistDialog2/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1590600228007" />
     <state x="-1500" y="199" key="FileChooserDialogImpl" timestamp="1589364217162">
       <screen x="-2560" y="-256" width="2560" height="1400" />
@@ -502,10 +510,11 @@
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
     <state x="-1779" y="87" key="SettingsEditor/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1590493515833" />
-    <state x="-2560" y="-256" key="Vcs.Push.Dialog.v2" timestamp="1594117943631">
-      <screen x="-2560" y="-256" width="2560" height="1400" />
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2" timestamp="1594210493162">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-2560" y="-256" key="Vcs.Push.Dialog.v2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1594117943631" />
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@0.0.1920.1040" timestamp="1594210493162" />
     <state x="-2560" y="-256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1590600294109" />
     <state x="-1617" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1593682994482">
       <screen x="-2560" y="-256" width="2560" height="1400" />
