@@ -24,14 +24,12 @@ mixin radio(text,group,checked)
         .icon-radio
       .style-input-text=text
 
-mixin incr(a,type)
-  - a = a || 1
-  .elements-icr-block
-    .incr(class=type?type:'')
-      .incr__minus.incr__nav
-        +icon("minus","icon")
-      .incr__val
-        span=a
-        .incr__val-coner
-      .incr__plus.incr__nav
-        +icon("plus","icon")
+mixin incr(state)
+  .incr(class= state ? 'incr--one' : '')
+    .incr__minus.incr__nav
+      +icon("minus","icon")
+    .incr__val
+      span=state ? 1 : 0
+      .incr__val-coner
+    .incr__plus.incr__nav
+      +icon("plus","icon")

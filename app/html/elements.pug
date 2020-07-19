@@ -5,26 +5,172 @@ include block_html/_include.pug
 include block_html/_svg.pug
 
 style(type='text/css').
-	.element-list-svg {
-		display: grid;
-		grid-gap:20px;
-		grid-template-columns: repeat(auto-fill, minmax(12rem,1fr));
+	.elements-hr {
+		margin: 40px 0;
+		display: block;
+		height: 1px;
+		border-bottom: 1px solid #d1d1d1;
 	}
-	.icon-el {
-		width: 40px;
-		height: 40px;
-		margin-bottom: 10px;
 
-	}
-	.element-list-svg__icon {
+	.all-page-color {
 		display: flex;
-		align-items: center;
+		flex-wrap: wrap;
+	}
+
+	.all-page-color__el {
+		margin: 20px;
+	}
+
+	.all-page-color__block {
+		width: 100px;
+		height: 100px;
+		border-radius: 10px;
+		margin-bottom: 10px;
+	}
+
+	.all-page-color__el-name {
+		text-align: center;
+		font-size: 14px;
+		font-weight: 700;
+	}
+
+	.old-browser-text {
+		text-align: center;
+		color: #fff;
+		font-size: 20px;
+	}
+
+	.element-list-svg {
+		display: flex;
 		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+	.element-list-svg__icon {
+		width: 12%;
+		margin: 20px 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		flex-flow: column;
 	}
 
+	.element-list-svg__icon .icon-el {
+		margin-bottom: 10px;
+		width: 25px;
+		height: 25px;
+	}
 
 .main-cont.main-cont--all
+
+	h1 Заголовок h1
+	h2 Заголовок h2
+	h3 Заголовок h3
+	h4 Заголовок h4
+	h5 Заголовок h5
+
+	.elements-hr
+	.text
+		p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus atque consequuntur deleniti ducimus eius itaque iure laborum laudantium natus perspiciatis.
+		p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad, alias aliquid amet autem deleniti dolor eligendi eos esse, fuga incidunt itaque iure minus officiis quasi quo sequi suscipit tempora tenetur totam. Alias aperiam commodi deserunt facilis mollitia nobis provident.
+		ul
+			li пункт 1
+			li пункт 2
+			li пункт 3
+		p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa cupiditate delectus fuga impedit, omnis velit voluptate. Ab ad adipisci beatae consectetur consequuntur cum cumque delectus dolor doloremque ducimus earum error eveniet hic illum incidunt iste labore laborum molestiae nemo non, pariatur, possimus qui quia quisquam rem sit, suscipit tempore unde.
+
+	.elements-hr
+	a(href="#").btn--md.btn--mark Стандартная
+	a(href="#").btn--md.btn--disable Неактивная
+	a(href="#").btn--md.btn--light Дополнительная
+	a(href="#").btn--md.btn--light
+		.btn--icon
+			span C  иконкой
+			+icon("arrow-right","nav-icon")
+	a(href="#").btn--md.btn--mark
+		.btn--icon
+			span C  иконкой
+			+icon("arrow-right","nav-icon")
+
+	.elements-hr
+	a(href="#").btn--sm.btn--mark Кнопка small
+	a(href="#").btn--sm.btn--disable Неактивная small
+	a(href="#").btn--sm.btn--light Второстепенная small
+	a(href="#").btn--sm.btn--light
+		.btn--icon
+			span C иконкой small
+			+icon("checked","nav-icon")
+
+	.elements-hr
+	a(href="#").link--mark Цветная ссылка
+	a(href="#").link--main Новая ссылка
+	a(href="#").link--text Ссылка в тексте
+
+
+	.elements-hr
+	.forms
+		.input-row.input-row--error
+			.input-row__title Ваше имя
+			input(type="text" placeholder="Ваше имя" class="input")
+			.error-msg Введённые данные не должны содержать цифры
+		.input-cont.input-cont--two
+			.input-row
+				.input-row__title Ваше имя
+				input(type="text" placeholder="Ваше имя" class="input")
+			.input-row
+				.input-row__title Ваше имя
+				input(type="text" placeholder="Ваше имя" class="input")
+		.input-cont.input-cont--three
+			.input-row
+				.input-row__title Ваше имя
+				input(type="text" placeholder="Ваше имя" class="input")
+			.input-row
+				.input-row__title Ваше имя
+				input(type="text" placeholder="Ваше имя" class="input")
+			.input-row
+				.input-row__title Ваше имя
+				input(type="text" placeholder="Ваше имя" class="input")
+		.input-get
+			input(type="text" placeholder="Ваше имя" class="input")
+			.input-get__btn
+				input(type="submit" value="" class="input input-get__btn-el")
+				+icon("arrow-right","icon")
+
+		.input-row
+			.input-row__title Ваше имя
+			textarea(name="text", cols="30", rows="10" class="input")
+
+		//checkbox remember
+		.login-remember
+			.check-el
+				label.style-label.style-label--checkbox
+					input(type="checkbox").style-input
+					.style-input-element
+						+icon("checked","icon")
+					.style-input-text Я ознакомился с #[a(href="#") политикой конфиденциальности], #[a(href="#") публичной офертой] и даю согласие на обработку моих персональных данных
+		//upload
+		.upload-wrap
+			.upload-img
+			label.upload
+				.upload__icon
+					+icon("arrow-left","icon")
+				.upload__text Прикрепить фото
+				input(type="file").upload-btn
+		input(type="submit" value="Отправить" class="btn--md btn--mark")
+
+
+	.elements-hr
+	.dropdown
+		input(type="hidden" name="name" value="0")
+		.dropdown-current
+			.dropdown-current__val Начальное значение
+			+icon("arrow-down-fat","icon")
+		.dropdown-menu
+			.dropdown-menu__el(data-value="#") Значение 1
+			.dropdown-menu__el(data-value="#") Значение 2
+			.dropdown-menu__el(data-value="#") Значение 3
+
 	.elements-hr
 	.element-list-svg
 		each item in svgArray

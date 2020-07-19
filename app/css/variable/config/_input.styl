@@ -17,6 +17,7 @@
 .input--disable
 	@extend .disabled
 
+// checkbox + radio style
 .style-label
 	display flex
 	position relative
@@ -25,13 +26,21 @@
 .style-label--disable
 	@extend .disabled
 
-// checkbox + radio style
-
 .check-el
 	input
 		position absolute
 		top 0
 		left -9999px
+
+.style-input-text
+	color black
+	width: calc(100% - 80px)
+	line-height: 1.6
+	a
+		color $mark
+
+// checkbox
+.style-label--checkbox
 	.style-input-element
 		br(5px)
 		cp()
@@ -44,7 +53,7 @@
 		border 1px solid $border-color
 		&:hover
 			border 1px solid $mark
-	.icon-check
+	.icon
 		display none
 	.style-input
 		&:checked ~ .style-input-element
@@ -52,16 +61,14 @@
 			color white
 			background: $mark
 			border 1px solid $mark
-			.icon-check
+			.icon
 				display block
-				fill black
+				fill white
 				size 14px
+// checkbox === end
 
+// radio
 .style-label--radio
-	input
-		position absolute
-		top 0
-		left -9999px
 	.style-input-element
 		size 26px
 		position relative
@@ -73,8 +80,6 @@
 		cp()
 		&:hover
 			border 2px solid $mark
-	.icon-check
-		display none
 	.style-input
 		&:checked ~ .style-input-element
 			flex(mid)
@@ -85,13 +90,8 @@
 				round()
 				size 14px
 				background $mark
+// radio === end
 
-.style-input-text
-	color black
-	width: calc(100% - 80px)
-	line-height: 1.6
-	a
-		color $mark
 // checkbox + radio style === end
 
 
@@ -122,14 +122,21 @@
 .input-cont
 	display: grid
 	grid-gap 20px
+
 .input-cont--two
+	+below(640px)
+		grid-template-columns: 1fr
 	grid-template-columns: 1fr 1fr
-	+below(640px)
-		grid-template-columns: 1fr
+
 .input-cont--three
-	grid-template-columns: 1fr 1fr 1fr
 	+below(640px)
 		grid-template-columns: 1fr
+	grid-template-columns: 1fr 1fr 1fr
+
+.input-cont--four
+	+below(640px)
+		grid-template-columns: 1fr 1fr
+	grid-template-columns: repeat(4,1fr)
 
 //checkbox remember
 .login-remember
@@ -235,3 +242,47 @@
 	position: absolute
 	left -9999px
 // form === end
+
+// incr
+.incr
+	f()
+	height 40px
+	position relative
+	width 160px
+.incr__nav
+	flex(mid)
+	tr(background)
+	size 40px
+	border 1px solid #dddddd
+	background white
+	.icon
+		size 14px
+	&:hover
+		cp()
+		background-color $mark
+		border 0
+		.icon
+			fill black
+	&:active
+		background-color darken($mark,10)
+.incr__val
+	flex(mid)
+	background white
+	size 50px 40px
+	position relative
+	tr(all)
+	span
+		outline: none
+		user-select: none
+
+// Переключение с кнопки на инкремент
+.incr-btn
+	.incr-btn-wrap
+		display: none
+.incr-btn--active
+	.incr-btn__el
+		display: none
+	.incr-btn-wrap
+		display: block
+
+// incr === end
