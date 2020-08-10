@@ -125,7 +125,7 @@ $(document).ready(function () {
 			selector.not(this).removeClass('active')
 			selector.not(this).closest(".js-switch-parrent").find(".js-switch-cont").removeClass('active')
 		}
-		parrent.find(".js-switch-cont").toggleClass('active')
+		parrent.find(".js-switch-cont[data-item=" + thisItem + "]").toggleClass('active')
 	})
 	//toggle class + parent === end
 

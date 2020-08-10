@@ -9,21 +9,21 @@ mixin modal()
 					.modal-title Оставьте заявку
 					.modal-text Обращаетесь к нам впервые? <br> Оформите обращение с помощью этой формы, мы перезвоним Вам и проконсультируем по любому Вашему вопросу совершенно бесплатно!
 					form.validate-form( action="javascript:void(null);")
-						.input-row
-							input(type="text" name="name" placeholder="Ваше имя").input
-						.input-row
-							input(type="text" name="phone" placeholder="Ваш телефон").input
-						.input-row
-							textarea(name="info", cols="30", rows="5" placeholder="Сообщение").input
-						.agree-row
+						.input-cont
+							.input-row
+								.input-row__title
+								input(type="text" placeholder="Ваше имя" class="input")
+						.input-cont
+							.input-row
+								.input-row__title
+								input(type="text" placeholder="Телефон" class="input")
+						.login-remember
 							.check-el
 								label.style-label.style-label--checkbox
-									input(type="checkbox" name="agree").sytle-input
-									.sytle-input-element
-										+icon("checked","icon-check")
-									.sytle-input-text=text
-							.agree-row__text Согласен с
-								a(href="#") условиями обработки персональных данных
+									input(type="checkbox").style-input
+									.style-input-element
+										+icon("checked","icon")
+									.style-input-text Я ознакомился с #[a(href="#") политикой конфиденциальности], #[a(href="#") публичной офертой] и даю согласие на обработку моих персональных данных
 						input(type="submit" value="Отправить заявку").modal-send
 			//success message
 			.modal(data-modal="true")

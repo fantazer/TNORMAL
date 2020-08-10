@@ -8,13 +8,13 @@ mixin checkbox(text,disable)
       label.style-label.style-label--checkbox.style-label--disable
         input(type="checkbox").style-input
         .style-input-element
-          +icon("checked","icon-check")
+          +icon("checked","icon")
         .style-input-text=text
     else
       label.style-label.style-label--checkbox
         input(type="checkbox").style-input
         .style-input-element
-          +icon("checked","icon-check")
+          +icon("checked","icon")
         .style-input-text=text
 mixin radio(text,group,checked)
   .check-el
@@ -24,8 +24,8 @@ mixin radio(text,group,checked)
         .icon-radio
       .style-input-text=text
 
-mixin incr(state)
-  .incr(class= state ? 'incr--one' : '')
+mixin incr(state,className='')
+  .incr(class= state ? className  +' incr--one' : className )
     .incr__minus.incr__nav
       +icon("minus","icon")
     .incr__val

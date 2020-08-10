@@ -143,11 +143,12 @@
 	.style-label
 		+below(768px)
 			align-items: flex-start
-	.sytle-input-text
+	.style-input-text
 		font-size: 14px
 		color black
 		width: calc(100% - 80px)
 		line-height: 1.6
+		margin-top: 3px
 		a
 			color $mark
 	margin-bottom: 20px
@@ -246,31 +247,31 @@
 // incr
 .incr
 	f()
-	height 40px
 	position relative
-	width 160px
 .incr__nav
 	flex(mid)
-	tr(background)
+	tr(all)
 	size 40px
 	border 1px solid #dddddd
 	background white
+	round()
 	.icon
 		size 14px
+		fill $gray
+		tr()
 	&:hover
 		cp()
-		background-color $mark
-		border 0
+		border 1px solid $mark
 		.icon
-			fill black
+			fill $mark
 	&:active
 		background-color darken($mark,10)
 .incr__val
 	flex(mid)
 	background white
-	size 50px 40px
 	position relative
 	tr(all)
+	padding: 0 15px
 	span
 		outline: none
 		user-select: none

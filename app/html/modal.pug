@@ -2,24 +2,31 @@ include block_html/_style.pug
 include block_html/_include.pug
 
 style(type='text/css').
-	.btn--md {
-		display: inline-block;
-		margin-bottom: 20px;
-	}
-
 	.btn-wrap {
 		display: flex;
 		flex-wrap: wrap;
 		flex-flow: column;
 		align-items: baseline;
 	}
+	.btn-wrap .btn--md {
+		display: inline-block;
+		margin-bottom: 20px;
+	}
 
+	@media only screen and (max-width: 640px) {
+		.btn-wrap .btn--md{
+			width: 100%;
+		}
+	}
 
-.main-cont
-	p Чтобы вызвать нужное окно добавь на элемент класс .modal-get и data-modal="имя окна"
-	p Чтобы добавить метод закрытия окна по клику на элемент добавиь класс .modal-send
-	.btn-wrap
-		.btn--md.btn--mark.modal-get(data-modal="order") Заявка | data-modal="code "
+.page
+	+header()
+	.content
+		.main-cont
+			p Чтобы вызвать нужное окно добавь на элемент класс .modal-get и data-modal="имя окна"
+			p Чтобы добавить метод закрытия окна по клику на элемент добавиь класс .modal-send
+			.btn-wrap
+				.btn--md.btn--mark.modal-get(data-modal="order") Заявка | data-modal="code "
 
 +footer()
 +modal()
