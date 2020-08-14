@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix windows config">
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix styles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/variable/config/_input.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/config/_input.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/block_html/_mixin.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/block_html/_mixin.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/elements.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/elements.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/modal.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/modal.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/module/modal/_modal.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/module/modal/_modal.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +150,9 @@
       <workItem from="1596037069848" duration="42000" />
       <workItem from="1596107497444" duration="11000" />
       <workItem from="1596195260277" duration="847000" />
-      <workItem from="1597054199715" duration="71000" />
+      <workItem from="1597054199715" duration="563000" />
+      <workItem from="1597141809357" duration="34000" />
+      <workItem from="1597402584709" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="fix browsersynk">
       <created>1515935102048</created>
@@ -479,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595160805761</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="fix styles">
+      <created>1597054382871</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1597054382871</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -517,7 +521,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="add templates style + js" />
     <MESSAGE value="add icon + fix readme + add modal page" />
     <MESSAGE value="fix hrefs" />
     <MESSAGE value="fix transition" />
@@ -542,19 +545,20 @@
     <MESSAGE value="fix elements page" />
     <MESSAGE value="up version v 1.7.1" />
     <MESSAGE value="fix windows config" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix windows config" />
+    <MESSAGE value="fix styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix styles" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1488" y="302" key="#Scopes" timestamp="1595160507526">
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
     <state x="-1488" y="302" key="#Scopes/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1595160507526" />
-    <state x="-1753" y="-103" key="CommitChangelistDialog2" timestamp="1595160804642">
+    <state x="-1753" y="-103" key="CommitChangelistDialog2" timestamp="1597054380876">
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
     <state x="-1753" y="-103" key="CommitChangelistDialog2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1594563425482" />
     <state x="605" y="114" key="CommitChangelistDialog2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@0.0.1920.1040" timestamp="1594210490240" />
-    <state x="-1753" y="-103" key="CommitChangelistDialog2/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1595160804642" />
+    <state x="-1753" y="-103" key="CommitChangelistDialog2/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1597054380876" />
     <state x="-2174" y="-131" key="DiffContextDialog" timestamp="1595160347621">
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
@@ -564,17 +568,17 @@
     </state>
     <state x="-1500" y="199" key="FileChooserDialogImpl/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1589364217162" />
     <state x="-1478" y="321" key="FileChooserDialogImpl/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1595160551665" />
-    <state x="-1779" y="87" key="SettingsEditor" timestamp="1597054269490">
+    <state x="-1779" y="87" key="SettingsEditor" timestamp="1597054358809">
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
     <state x="-1779" y="87" key="SettingsEditor/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1590493515833" />
-    <state x="-1779" y="87" key="SettingsEditor/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1597054269490" />
-    <state x="-2560" y="-256" key="Vcs.Push.Dialog.v2" timestamp="1595160807677">
+    <state x="-1779" y="87" key="SettingsEditor/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1597054358809" />
+    <state x="-2560" y="-256" key="Vcs.Push.Dialog.v2" timestamp="1597054385894">
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
     <state x="-2560" y="-256" key="Vcs.Push.Dialog.v2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1594563428818" />
     <state x="0" y="0" key="Vcs.Push.Dialog.v2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@0.0.1920.1040" timestamp="1594210493162" />
-    <state x="-2560" y="-256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1595160807677" />
+    <state x="-2560" y="-256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1597054385894" />
     <state x="-1414" y="288" key="cloudConfig.SelfSettingsDialog" timestamp="1595160633744">
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
