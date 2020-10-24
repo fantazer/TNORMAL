@@ -34,11 +34,11 @@ $(document).ready(function () {
 
 	}
 	// ==== clear storage =====
-	localStorage.clear();
+	/*localStorage.clear();
 	sessionStorage.clear();
 	$(window).unload(function () {
 		localStorage.clear();
-	});
+	});*/
 	// ==== clear storage end =====
 
 	/* ###### For SlideToggle Elements  ######*/

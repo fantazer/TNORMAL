@@ -65,6 +65,11 @@ $(document).ready(function () {
 	$('.modal-close, .modal-hide').click(function () {
 		closeModal();
 	});
+
+	$('.modal-wrap').click(function(e){
+		e.target.className === 'modal-wrap' ? closeModal() : false
+	});
+
 	//modals===end
 
 	// fix top-menu
