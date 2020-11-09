@@ -35,7 +35,7 @@
 
 .style-input-text
 	color black
-	width: calc(100% - 80px)
+	width: calc(100% - 60px)
 	line-height: 1.6
 	a
 		color $mark
@@ -43,17 +43,20 @@
 // checkbox
 .style-label--checkbox
 	.style-input-element
-		br(5px)
+		br(4px)
 		cp()
 		tr(all)
-		size 26px
+		size 32px
 		position relative
 		display inline-block
 		margin-right 10px
 		background white
 		border 1px solid $border-color
 		&:hover
-			border 1px solid $mark
+			border 2px solid $mark
+	&.style-label--disable
+		.style-input-element
+			background: $gray!important
 	.icon
 		display none
 	.style-input
@@ -65,13 +68,13 @@
 			.icon
 				display block
 				fill white
-				size 14px
+				size 24px
 // checkbox === end
 
 // radio
 .style-label--radio
 	.style-input-element
-		size 26px
+		size 32px
 		position relative
 		display inline-block
 		margin-right 10px
@@ -79,22 +82,25 @@
 		border 2px solid $border-color
 		round()
 		cp()
+		tr()
 		&:hover
 			border 2px solid $mark
+	&.style-label--disable
+		.style-input-element
+			background: $gray!important
 	.style-input
 		&:checked ~ .style-input-element
 			flex(mid)
 			color white
-			border 2px solid $mark
-			background: white
+			border 1px solid $mark
+			background: $mark
 			.icon-radio
 				round()
-				size 14px
-				background $mark
+				size 16px
+				background white
 // radio === end
 
 // checkbox + radio style === end
-
 
 //form
 .input-row

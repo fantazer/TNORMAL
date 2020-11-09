@@ -2,23 +2,19 @@ mixin icon(name,cls)
   svg(class=cls)
     use(xlink:href="#" + name)
 
-mixin checkbox(text,disable)
+//+checkbox('Выбрать пункт 1',"checked",'disable')
+mixin checkbox(text,checked,disable)
   .check-el
-    if disable
-      label.style-label.style-label--checkbox.style-label--disable
-        input(type="checkbox").style-input
-        .style-input-element
-          +icon("checked","icon")
-        .style-input-text=text
-    else
-      label.style-label.style-label--checkbox
-        input(type="checkbox").style-input
-        .style-input-element
-          +icon("checked","icon")
-        .style-input-text=text
-mixin radio(text,group,checked)
+    label.style-label.style-label--checkbox(class = disable === 'disable' ? 'style-label--disable' : '')
+      input(type="checkbox" checked=checked === "checked" ? checked : false).style-input
+      .style-input-element
+        +icon("checked","icon")
+      .style-input-text=text
+
+//+radio('Выбрать пункт 1',"list","true",'disable')
+mixin radio(text,group,checked,disable)
   .check-el
-    label.style-label.style-label--radio
+    label.style-label.style-label--radio(class = disable === 'disable' ? 'style-label--disable' : '')
       input(type="radio" name=group checked=checked).style-input
       .style-input-element
         .icon-radio
