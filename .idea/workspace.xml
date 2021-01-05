@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix modal content">
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix radio + checkbox">
+      <change afterPath="$PROJECT_DIR$/app/fonts/Ubuntu-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/Ubuntu-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/Ubuntu-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/Ubuntu-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/Ubuntu-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/Ubuntu-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/Ubuntu-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/Ubuntu-Regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frontend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frontend.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/variable/_helper.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/_helper.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/variable/config/_btn.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/config/_btn.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/variable/config/_input.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/config/_input.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/block_html/_mixin.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/block_html/_mixin.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/variable/config/_typography.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/config/_typography.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/rouble-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/rouble-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/rouble-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/rouble-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/rouble-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/html/block_html/_style.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/block_html/_style.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +35,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="1OgzLs5tRzA7rKn4Yudy7oRwBFY" />
   <component name="ProjectLevelVcsManager">
@@ -32,19 +53,31 @@
     <property name="SearchEverywhereHistoryKey" value="clone&#9;ACTION&#9;Git.Clone" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="add_unversioned_files" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/img/svg" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/fonts" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PROJECT\STEND\FRONTEND\app\fonts" />
       <recent name="E:\PROJECT\STEND\FRONTEND\app\img\svg" />
       <recent name="E:\PROJECT\STEND\FRONTEND\app\img" />
       <recent name="E:\PROJECT\STEND\FRONTEND\app\html" />
       <recent name="E:\PROJECT\STEND\FRONTEND\dist\js" />
-      <recent name="E:\PROJECT\STEND\FRONTEND\app\css\variable\config" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -168,14 +201,15 @@
       <workItem from="1603534724867" duration="993000" />
       <workItem from="1604342903292" duration="614000" />
       <workItem from="1604405949074" duration="861000" />
-      <workItem from="1604937503869" duration="216000" />
-    </task>
-    <task id="LOCAL-00004" summary="add readme">
-      <created>1539196292222</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1539196292222</updated>
+      <workItem from="1604937503869" duration="1335000" />
+      <workItem from="1607076436919" duration="1103000" />
+      <workItem from="1607525490510" duration="23000" />
+      <workItem from="1607588647987" duration="105000" />
+      <workItem from="1607588774082" duration="984000" />
+      <workItem from="1607594429875" duration="21000" />
+      <workItem from="1607614165230" duration="92000" />
+      <workItem from="1607615044734" duration="25000" />
+      <workItem from="1607765348378" duration="4176000" />
     </task>
     <task id="LOCAL-00005" summary="add new icon">
       <created>1539342063000</created>
@@ -513,7 +547,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604407709952</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="fix radio + checkbox">
+      <created>1604937756063</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1604937756063</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -551,7 +592,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="add full page template" />
     <MESSAGE value="add mixin link" />
     <MESSAGE value="fix slide menu" />
     <MESSAGE value="fix btn + animateShow function" />
@@ -576,35 +616,7 @@
     <MESSAGE value="add cookie msg" />
     <MESSAGE value="fix modal + localstorage" />
     <MESSAGE value="fix modal content" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix modal content" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="-1753" y="-40" key="CommitChangelistDialog2" timestamp="1604407708310">
-      <screen x="-2560" y="-193" width="2560" height="1400" />
-    </state>
-    <state x="-1753" y="-40" key="CommitChangelistDialog2/-2560.-193.2560.1400/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984@-2560.-193.2560.1400" timestamp="1603535056788" />
-    <state x="-1753" y="-40" key="CommitChangelistDialog2/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984/-2560.-193.2560.1400@-2560.-193.2560.1400" timestamp="1604407708310" />
-    <state x="-1753" y="-103" key="CommitChangelistDialog2/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1602233651659" />
-    <state x="-1779" y="87" key="SettingsEditor" timestamp="1599741730816">
-      <screen x="-2560" y="-256" width="2560" height="1400" />
-    </state>
-    <state x="-1779" y="87" key="SettingsEditor/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1599741730816" />
-    <state x="-1959" y="128" key="Vcs.Push.Dialog.v2" timestamp="1604407711953">
-      <screen x="-2560" y="-193" width="2560" height="1400" />
-    </state>
-    <state x="-1959" y="128" key="Vcs.Push.Dialog.v2/-2560.-193.2560.1400/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984@-2560.-193.2560.1400" timestamp="1603535060135" />
-    <state x="-1959" y="128" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984/-2560.-193.2560.1400@-2560.-193.2560.1400" timestamp="1604407711953" />
-    <state x="-1959" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1600361287895" />
-    <state x="674" y="257" width="572" height="527" key="find.popup" timestamp="1600160853016">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="674" y="257" width="572" height="527" key="find.popup/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@0.0.1920.1040" timestamp="1600160853016" />
-    <state x="943" y="-846" width="672" height="504" key="search.everywhere.popup" timestamp="1604937654081">
-      <screen x="0" y="-1080" width="2560" height="1040" />
-    </state>
-    <state x="-1617" y="122" width="672" height="678" key="search.everywhere.popup/-2560.-193.2560.1400/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984@-2560.-193.2560.1400" timestamp="1603535115512" />
-    <state x="943" y="-846" width="672" height="504" key="search.everywhere.popup/-2560.-193.2560.1400/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984@0.-1080.2560.1040" timestamp="1604937654081" />
-    <state x="707" y="234" width="672" height="504" key="search.everywhere.popup/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@0.0.1920.1040" timestamp="1600160836008" />
-    <state x="-1617" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1600361303901" />
+    <MESSAGE value="fix radio + checkbox" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix radio + checkbox" />
   </component>
 </project>

@@ -296,3 +296,78 @@
 		display: block
 
 // incr === end
+
+// drop
+.dropdown
+	width: 100%
+	display inline-block
+	tr()
+	position relative
+	outline none!important
+.dropdown-current
+	br(4px)
+	tr()
+	background: $fieldBackground
+	border 1px solid $border-color
+	cursor pointer
+	display block
+	padding 28px 46px 12px 20px
+	position relative
+	&:hover
+		border 1px solid $borderHover
+		.icon
+			fill black
+	.icon
+		position absolute
+		top calc(50% - 12px)
+		right 20px
+		size 24px
+		tr()
+		fill $grayLight
+.dropdown-current__val
+	color black
+	white-space nowrap
+	text-overflow ellipsis
+	overflow hidden
+.dropdown-title
+	position absolute
+	top 8px
+	left 20px
+	@extend .type--sm
+	color $typeSecondary
+.dropdown.active
+	.icon
+		transform rotate(180deg)
+	.dropdown-current
+		background: white
+.dropdown-menu
+	position absolute
+	background-color #fff
+	width 100%
+	br(4px)
+	box-shadow 0 12px 32px rgba(41, 42, 53, 0.16)
+	overflow hidden
+	display none
+	max-height 200px
+	overflow-y auto
+	z-index 10
+	&::-webkit-scrollbar
+		-webkit-appearance: none
+		width: 7px
+		background: #f3f3f3
+
+	&::-webkit-scrollbar-thumb
+		border-radius: 2px
+		background-color: rgba(0, 0, 0, .5)
+		-webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5)
+.dropdown-menu__el
+	padding 18px 20px
+	cp()
+	tr()
+	//background: #f9f9f9
+	&:last-child
+		border 0
+	&:hover
+		background: $greenLight
+		color black
+// drop === end

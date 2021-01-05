@@ -122,28 +122,68 @@ p
 
 
 .text
+	color black
+	h1,h2,h3,h4,h5
+		margin 3.5rem 0 2rem
+	h1:first-of-type,
+	h2:first-of-type,
+	h3:first-of-type,
+	h4:first-of-type,
+	h5:first-of-type,
+	h6:first-of-type,
+	p
+		margin-top: 0!important
+	a:not(.btn--md):not(.btn--sm)
+		@extend .link--mark
+	img
+		@extend .m-64
 	p
 		line-height: 1.6
 		margin-bottom: 30px
+		&:first-child
+			margin-top: 0
+		&:last-child
+			margin-bottom: 0
 	ul
 		margin-bottom: 30px
+		padding-left 26px
+		list-style none
 		li
 			line-height: 1.6
-			margin-bottom: 10px
+			margin-bottom: 16px
+			position relative
+			//font-weight: 700
+			&:before
+				content ''
+				position absolute
+				size 12px
+				round()
+				border 2px solid $mark
+				left -26px
+				top 6px
 			&:last-child
 				margin-bottom: 0
 
 // icons
 .icon-row
 	f()
-	fw()
 	align-items center
+	span
+		width calc(100% - 36px)
+.icon-row--extend
+	margin-bottom: 32px
 
-.icon--sm
-	size 16px
+.icon
+	size 24px
 
 .icon--md
-	size 24px
+	size 32px
+
+.icon--lg
+	size 48px
+
+.icon--xl
+	size 80px
 
 .icon--left
 	margin-left: 10px
@@ -156,4 +196,14 @@ p
 
 .icon--gray
 	fill $gray
+
+.icon--orange
+	fill $orange
+
+.icon--white
+	fill white
+
+.db
+	display block
+
 // icons === end

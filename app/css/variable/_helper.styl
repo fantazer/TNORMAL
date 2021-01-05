@@ -40,3 +40,120 @@
 .drop.active
 	transform: scaleY(1)
 	opacity: 1
+
+// block extend
+$st = {
+		"type1":{
+			size1:12,
+			size2:12,
+			size3:12,
+		},
+		"type2":{
+			size1:16,
+			size2:16,
+			size3:16,
+		},
+		"type3":{
+			size1:24,
+			size2:16,
+			size3:16,
+		},
+		"type4":{
+			size1:32,
+			size2:24,
+			size3:24,
+		},
+		"type5":{
+			size1:48,
+			size2:32,
+			size3:24,
+		},
+		"type6":{
+			size1:64,
+			size2:48,
+			size3:24,
+		},
+		"type7":{
+			size1:80,
+			size2:64,
+			size3:32,
+		},
+		"type8":{
+			size1:100,
+			size2:80,
+			size3:40,
+		}
+}
+
+
+mb(size1,size2,size3)
+	.mb-{size1}
+		margin-bottom size1 px
+		+below(1024px)
+			margin-bottom: size2 px
+		+below(640px)
+			margin-bottom: size3 px
+
+mt(size1,size2,size3)
+	.mt-{size1}
+		margin-top size1 px
+		+below(1024px)
+			margin-top: size2 px
+		+below(640px)
+			margin-top: size3 px
+
+m(size1,size2,size3)
+	.m-{size1}
+		margin unit(size1,px) 0
+		+below(1024px)
+			margin: unit(size2,px) 0
+		+below(640px)
+			margin: unit(size3,px) 0
+
+pb(size1,size2,size3)
+	.pb-{size1}
+		padding-bottom size1 px
+		+below(1024px)
+			padding-bottom: size2 px
+		+below(640px)
+			padding-bottom: size3 px
+
+pt(size1,size2,size3)
+	.pt-{size1}
+		padding-top size1 px
+		+below(1024px)
+			padding-top: size2 px
+		+below(640px)
+			padding-top: size3 px
+
+p(size1,size2,size3)
+	.p-{size1}
+		padding unit(size1,px) 0
+		+below(1024px)
+			padding: unit(size2,px) 0
+		+below(640px)
+			padding: unit(size3,px) 0
+
+
+for $type,$typeVal in $st
+	mb($typeVal['size1'],$typeVal['size2'],$typeVal['size3'])
+	mt($typeVal['size1'],$typeVal['size2'],$typeVal['size3'])
+	m($typeVal['size1'],$typeVal['size2'],$typeVal['size3'])
+	pb($typeVal['size1'],$typeVal['size2'],$typeVal['size3'])
+	pt($typeVal['size1'],$typeVal['size2'],$typeVal['size3'])
+	p($typeVal['size1'],$typeVal['size2'],$typeVal['size3'])
+
+// block extend === end
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+	select:focus,
+	textarea:focus,
+	input:focus
+		font-size: 16px;
+		background: #eee;
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+	select,
+	textarea,
+	input
+		font-size: 16px!important

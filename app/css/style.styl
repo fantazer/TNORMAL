@@ -1,3 +1,4 @@
+@import "grid/_grid.styl"
 @import 'rupture'
 @import "variable/_function.styl"
 @import "variable/_ie.styl"
@@ -208,59 +209,6 @@ body
 	@extend .btn--mark
 	width: 100%
 // modal === end
-
-// drop
-.dropdown
-	width: 100%
-	display inline-block
-	br(4px)
-	tr()
-	position relative
-	border 1px solid $border-color
-	outline none!important
-.dropdown-current
-	cursor pointer
-	display block
-	padding 10px
-	padding-right 25px
-	font-weight: 700
-	.icon
-		position absolute
-		top calc(50% - 6px)
-		right 10px
-		size 12px
-		tr()
-
-.dropdown.active
-	border-radius 4px 4px 0 0
-	.icon
-		transform rotate(180deg)
-
-.dropdown-menu
-	position absolute
-	background-color #fff
-	width calc(100% + 2px)
-	left -1px
-	margin-top -1px
-	border-radius 0 0 4px 4px
-	overflow hidden
-	display none
-	max-height 200px
-	overflow-y auto
-	z-index 10
-	border 1px solid $border-color
-.dropdown-menu__el
-	padding 10px
-	cp()
-	tr()
-	border-bottom 1px solid $border-color
-	//background: #f9f9f9
-	&:last-child
-		border 0
-	&:hover
-		background: white
-		color black
-// drop === end
 
 // cookie
 .cookie
